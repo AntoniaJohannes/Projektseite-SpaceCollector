@@ -1,1 +1,1 @@
-# Projektseite-SpaceCollector
+# Projektseite: SpaceCollector
