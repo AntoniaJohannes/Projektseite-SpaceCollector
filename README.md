@@ -40,6 +40,10 @@ Die Hindernisse in SpaceCollector sollen das Spielerlebnis spannender gestalten,
 
 Bilder Hindernisse
 
+Bei den Raumschiffen haben wir verschiedene Spriteanimationen genutzt, um die Flugrichtung realistisch darzustellen.
+
+Bilder Raumschiff Richtungen
+
 Bei Berühren der Raumschiffe werden 2 Coins abgezogen, bei Berühren der Sonne 3 Coins. Dabei prallen die Spielfiguren von dem Hindernissen ab, damit kein permanenter Kontakt und somit permanenter Coinverlust möglich ist.
 
 Bilder Code
