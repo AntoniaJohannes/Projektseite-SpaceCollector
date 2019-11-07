@@ -34,6 +34,10 @@ Bilder
 Wenn dieser Coin vom Charakter eingesammelt wird, hat dieser Spieler gewonnen. Wird dieser Coin jedoch vom Gegner eingesammelt, so wird der Coincounter auf 20 zurückgesetzt, sodass auch der andere Spieler noch eine Chance hat, das Spiel zu gewinnen. 
 
 ## Hindernisse
+In SpaceCollector gibt es drei Hindernisse: Eine Sonne in der Mitte des Spielfelds sowie zwei Raumschiffe, die in einem Viereck im Uhrzeigersinn um die Sonne herumfliegen.
+
+Bilder
+
 
 
 ## 
