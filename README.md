@@ -12,15 +12,15 @@ Das Spiel wird von zwei Spielern gegeneinander gespielt. Spieler 1 steuert den g
 
 Bilder Spielfiguren
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player1.jpeg" alt="image" width="100">
-<img src="https://github.com/BohrisNaturalisRettner/ToDo/blob/master/GreenSHield.png" alt="image" width="100">
+<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player2.jpeg" alt="image" width="100">
 
 Spieler 1 steuert die Spielfigur mit den Tasten WASD, Spieler 2 mit den Pfeiltasten, wobei sich die Animation für links und rechts so verändert, als wenn die Spielfigur nach links bzw. rechts laufen würde.
 
 Bilder Animationen links rechts
-<img src="https://github.com/BohrisNaturalisRettner/ToDo/blob/master/GreenSHield.png" alt="image" width="100">
-<img src="https://github.com/BohrisNaturalisRettner/ToDo/blob/master/GreenSHield.png" alt="image" width="100">
-<img src="https://github.com/BohrisNaturalisRettner/ToDo/blob/master/GreenSHield.png" alt="image" width="100">
-<img src="https://github.com/BohrisNaturalisRettner/ToDo/blob/master/GreenSHield.png" alt="image" width="100">
+<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player1L.jpeg" alt="image" width="100">
+<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player1R.jpeg" alt="image" width="100">
+<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player2L.jpeg" alt="image" width="100">
+<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player2R.jpeg" alt="image" width="100">
 
 Bilder Code Steuerung
 
