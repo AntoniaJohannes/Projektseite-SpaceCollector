@@ -48,9 +48,9 @@ Bild Coincounter
 Bei 30 gesammelten Münzen erscheint irgendwo ein großer, blinkender Coin in der Farbe des Charakters.
 
 
-<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player1W.jpeg" alt="image" width="100">
+<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC1.jpeg" alt="image" width="100">
 
-<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player2W.jpeg" alt="image" width="100">
+<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC2.jpeg" alt="image" width="100">
 
 Wenn dieser Coin vom Charakter eingesammelt wird, hat dieser Spieler gewonnen. Wird dieser Coin jedoch vom Gegner eingesammelt, so wird der Coincounter auf 20 zurückgesetzt, sodass auch der andere Spieler noch eine Chance hat, das Spiel zu gewinnen. 
 
