@@ -12,7 +12,7 @@ Das Spiel wird von zwei Spielern gegeneinander gespielt. Spieler 1 steuert den g
 
 Bilder
 
-Spieler 1 steuert die Spielfigur mit den Tasten WASD, Spieler 2 mit den Pfeiltasten. 
+Spieler 1 steuert die Spielfigur mit den Tasten WASD, Spieler 2 mit den Pfeiltasten, wobei sich die Animation für links und rechts so verändert, als wenn die Spielfigur nach links bzw. rechts laufen würde.
 
 Bilder
 
