@@ -3,9 +3,13 @@
 ## Inhaltsverzeichnis
 
 [1. Einleitung](#1)
+
 [2. Spielprinzip](#2)
+
 [3. Spielfiguren und Steuerung](#3)
+
 [4. Coins](#4)
+
 [5. Hindernisse](#5)
 
 
