@@ -44,6 +44,10 @@ Code für die Steuerung bei Spieler 2. Hier gilt dasselbe wie bei Spieler 1.
 
 Es ist möglich, am linken Spielfeldrand das Spielfeld zu verlassen und auf der rechten Seite zu erscheinen. Dasselbe gilt für die andere Richtung sowie den oberen und unteren Rand. Dieses Prinzip haben wir von dem Handyspiel "Doodle Jump" übernommen. Wir entschieden uns dafür, da sonst die Spielfiguren, einmal außerhalb des Spielfelds, nicht mehr sichtbar sind und nur schwer wieder in den sichtbaren Bereich zu navigieren sind. 
 
+![Edges](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Edges.PNG)
+
+Der Code zum Erscheinen auf der jeweils anderen Seite des Spielfelds bei Verlassen des Spielfelds auf einer beliebigen Seite. Dies ist der Code für Spieler 1, derselbe Code gilt für Spieler 2, welcher sich lediglich durch die Bezeichnungen des Sprites unterscheiden.
+
 ## Coins
 In "SpaceCollector" gibt es vier verschiedene Arten von Coins. Diese haben die Wertigkeiten 1, 2, 5 sowie -1. Die unterschiedlichen Wertigkeiten werden durch uterschiedliche Farben und Kennzeichnungen eindeutig gezeigt.
 
