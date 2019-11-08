@@ -69,6 +69,8 @@ Der Bronzene Coin gibt +1 Coins. Er erscheint zu Beginn des Spiels an einem zuf√
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C5.jpeg" alt="image" width="100">
 
+![C5 Eigenschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C5%20Eigenschaften.PNG)
+
 ### Der Coin mit rotem Kreis
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/BadC.jpeg" alt="image" width="100">
