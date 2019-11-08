@@ -78,7 +78,7 @@ In "SpaceCollector" gibt es vier verschiedene Arten von Coins. Diese haben die W
 
 ![C1 Eigenschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C1%20Eigenschaften.PNG)
 
-Der Bronzene Coin gibt +1 Coins. Er erscheint zu Beginn des Spiels an einem zufälligen Punkt auf dem Spielfeld. 
+Der Bronzene Coin gibt +1 Punkte. Er erscheint zu Beginn des Spiels an einem zufälligen Punkt auf dem Spielfeld. 
 
 #### Der Silberne Coin
 
@@ -86,7 +86,7 @@ Der Bronzene Coin gibt +1 Coins. Er erscheint zu Beginn des Spiels an einem zuf�
 
 ![C2 Eigenschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C2%20Eigenschaften.PNG)
 
-Der Silberne Coin gibt +2 Coins. Er erscheint zu Beginn ebenfalls an einem zufälligen Punkt auf dem Spielfeld.
+Der Silberne Coin gibt +2 Punkte. Er erscheint zu Beginn ebenfalls an einem zufälligen Punkt auf dem Spielfeld.
 
 #### Der Goldene Coin
 
@@ -94,7 +94,7 @@ Der Silberne Coin gibt +2 Coins. Er erscheint zu Beginn ebenfalls an einem zufä
 
 ![C5 Eigenschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C5%20Eigenschaften.PNG)
 
-Der Goldene Coin ist der beste Coin. Er gibt +5 Coins. Auch dieser Coin erscheint zu Beginn an einem zufälligen Punkt innerhalb des Spielfelds.
+Der Goldene Coin ist der beste Coin. Er gibt +5 Punkte. Auch dieser Coin erscheint zu Beginn an einem zufälligen Punkt innerhalb des Spielfelds.
 
 #### Der Coin mit dem rotem Kreis
 
@@ -102,7 +102,7 @@ Der Goldene Coin ist der beste Coin. Er gibt +5 Coins. Auch dieser Coin erschein
 
 ![BC Eigesnschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/BC%20Eigenschaften.PNG)
 
-Entgegen seiner goldenen Farbe gibt dieser Coin keine Punkte. Im Gegenteil, dieser Coin gibt -1 Coin. Dieser Coin verhält sich wie alle anderen Coins auch und erscheint zu Beginn an einem zufälligen Ort. 
+Entgegen seiner goldenen Farbe gibt dieser Coin keine Punkte. Im Gegenteil, dieser Coin gibt -1 Punkt und wird im Code deshalb als "badcoin" bezeichnet. Dieser Coin verhält sich wie alle anderen Coins auch und erscheint zu Beginn an einem zufälligen Ort. 
 
 ### Das Sammeln der Coins<a name="8"></a>
 
@@ -110,6 +110,7 @@ Die Coins werden durch Berühren mit dem Spielcharakter eingesammmelt und ersche
 
 ![Collecting](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Collecting.PNG)
 
+Um Minuspunkte zu verhindern, wird beim Einsammeln eines Badcoins, während man 0 Punkte hat, der eigene Coincounter auf 0 gesetzt. 
 Die Anzahl gesammelter Coins kann am oberen Rand des Spielfelds dem Coincounter entnommen werden.
 
 ![Coincounter Spielfeld](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Coincounter.png)
