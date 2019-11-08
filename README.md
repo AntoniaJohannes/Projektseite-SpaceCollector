@@ -27,7 +27,7 @@ SpaceCollector ist ein Spiel, welches wir während des Informatikunterrichts im 
 Im folgenden Text werden wir unser Spiel erklären und auf Herausforderungen und Schwierigkeiten während des Prozesses eingehen.
 
 ## Spielprinzip<a name="2"></a>
-Bei SpaceCollector konkurrieren zwei Aliens im All um verschiedene Coins. Im Hintergrund funkeln Sterne, um das All darzustellen. Die Coins werden durch simples Berühren eingesammelt. 
+Bei SpaceCollector konkurrieren zwei Aliens im All um verschiedene Coins. Im Hintergrund funkeln Sterne, um das All darzustellen. Die Coins werden durch simples Berühren eingesammelt. Ziel des Spiels ist es, Coins im Wert von 30 Punkten einzusammeln, um so den finalen Coin erscheinen zu lassen.
 Zu Beginn des Spiels erscheint Spieler 1 in der oberen linken Ecke, Spieler 2 in der unteren rechten Ecke. Die Sonne ist als zentrales Hindernis im Zentrum, darum herum fliegen zwei Raumschiffe. Diese beginnen in der unteren linken Ecke bzw. in der oberen rechten Ecke des Spielfelds, also in den Ecken, wo die Spieler sich zu Anfang nicht befinden.
 
 ![Ausgangssituation](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Ausgangssituation.PNG)
@@ -107,7 +107,7 @@ Entgegen seiner goldenen Farbe gibt dieser Coin keine Punkte. Im Gegenteil, dies
 
 ### Das Sammeln der Coins<a name="8"></a>
 
-Die Coins werden durch Berühren mit dem Spielcharakter eingesammmelt und erscheinen an einem zufälligen Ort erneut auf dem Spielfeld. 
+Die Coins werden durch Berühren mit dem Spielcharakter eingesammmelt und erscheinen an einem zufälligen Ort erneut auf dem Spielfeld. Gleichzeitig werden dem Coincounter des Spielers, der den Coin eingesammelt hat, der entsprechende Wert des Coins gutgeschrieben.
 
 ![Collecting](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Collecting.PNG)
 
