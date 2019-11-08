@@ -95,10 +95,9 @@ Die Anzahl gesammelter Coins kann am oberen Rand des Spielfelds dem Coincounter 
 ![Coincounter Spielfeld](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Coincounter.png)
 
 ![Coincounter Variablen](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Coincounter%20Variablen.PNG)
+
 ![Coincounter Code](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Coincounter%20Anzeige%20Code.PNG)
 
-Bild Coincounter
-<img src= alt="image" width="100">
 
 Bei 30 gesammelten Münzen erscheint irgendwo ein großer, blinkender Coin in der Farbe des Charakters.
 
