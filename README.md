@@ -63,7 +63,7 @@ Es ist möglich, am linken Spielfeldrand das Spielfeld zu verlassen und auf der 
 
 ![Edges](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Edge.PNG)
 
-Der Code zum Erscheinen auf der jeweils anderen Seite des Spielfelds bei Verlassen des Spielfelds auf einer beliebigen Seite. Dies ist der Code für Spieler 1, derselbe Code gilt für Spieler 2, welcher sich lediglich durch die Bezeichnungen des Sprites unterscheiden.
+Der Code zum Erscheinen auf der jeweils anderen Seite des Spielfelds bei Verlassen des Spielfelds auf einer beliebigen Seite.
 
 
 ## Coins<a name="6"></a>
