@@ -48,17 +48,16 @@ Spieler 1 steuert die Spielfigur mit den Tasten WASD, Spieler 2 mit den Pfeiltas
 
 Sprites für links bzw. rechts bei Spieler 1.
 
-![Keys1](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Keys%201.PNG)
-
-Code für die Steuerung bei Spieler 1. Die Sprites für links und rechts werden zusammen mit der Geschwindigkeit gewechselt. Die if-Schleife zur Zurücksetzung des Sprites und der Geschwindigkeit war nötig, da sonst die Sprites nicht mit der Bewegungsrichtung übereingestimmt hätten.
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player2L.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player2R.jpeg" alt="image" width="100">
 
 Sprites für links bzw. rechts bei Spieler 2.
 
-![Keys2](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Keys%202.PNG)
 
-Code für die Steuerung bei Spieler 2. Hier gilt dasselbe wie bei Spieler 1.
+![Keys1](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Keys%201.PNG)
+
+Code für die Steuerung bei Spieler 1. Die Sprites für links und rechts werden zusammen mit der Geschwindigkeit gewechselt. Die if-Schleife zur Zurücksetzung des Sprites und der Geschwindigkeit war nötig, da sonst die Sprites nicht mit der Bewegungsrichtung übereingestimmt hätten.
+
 
 Es ist möglich, am linken Spielfeldrand das Spielfeld zu verlassen und auf der rechten Seite zu erscheinen. Dasselbe gilt für die andere Richtung sowie den oberen und unteren Rand. Dieses Prinzip haben wir von dem Handyspiel "Doodle Jump" übernommen. Wir entschieden uns dafür, da sonst die Spielfiguren, einmal außerhalb des Spielfelds, nicht mehr sichtbar sind und nur schwer wieder in den sichtbaren Bereich zu navigieren sind. 
 
