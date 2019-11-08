@@ -54,6 +54,10 @@ In "SpaceCollector" gibt es vier verschiedene Arten von Coins. Diese haben die W
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C1.jpeg" alt="image" width="100">
 
+![C1 Eigenschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C1%20Eigenschaften.PNG)
+
+Der Bronzene Coin gibt +1 Coins. Er erscheint zu Beginn des Spiels an einem zufälligen Punkt auf dem Spielfeld. Sein Collider ist rund, da auch der Sprite rund ist und so das Einsammeln exakter und präziser ist.
+
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C2.jpeg" alt="image" width="100">
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C5.jpeg" alt="image" width="100">
