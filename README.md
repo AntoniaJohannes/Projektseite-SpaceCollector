@@ -75,6 +75,8 @@ Der Bronzene Coin gibt +1 Coins. Er erscheint zu Beginn des Spiels an einem zuf�
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/BadC.jpeg" alt="image" width="100">
 
+![BC Eigesnschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/BC%20Eigenschaften.PNG)
+
 ### Das Sammeln der Coins
 
 Die Coins werden durch Berühren mit dem Spielcharakter eingesammmelt und erscheinen an einem zufälligen Ort erneut auf dem Spielfeld. 
