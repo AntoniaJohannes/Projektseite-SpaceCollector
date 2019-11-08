@@ -48,6 +48,7 @@ Es ist möglich, am linken Spielfeldrand das Spielfeld zu verlassen und auf der 
 
 Der Code zum Erscheinen auf der jeweils anderen Seite des Spielfelds bei Verlassen des Spielfelds auf einer beliebigen Seite. Dies ist der Code für Spieler 1, derselbe Code gilt für Spieler 2, welcher sich lediglich durch die Bezeichnungen des Sprites unterscheiden.
 
+
 ## Coins
 In "SpaceCollector" gibt es vier verschiedene Arten von Coins. Diese haben die Wertigkeiten 1, 2, 5 sowie -1. Die unterschiedlichen Wertigkeiten werden durch uterschiedliche Farben und Kennzeichnungen eindeutig gezeigt.
 
@@ -57,7 +58,7 @@ In "SpaceCollector" gibt es vier verschiedene Arten von Coins. Diese haben die W
 
 ![C1 Eigenschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C1%20Eigenschaften.PNG)
 
-Der Bronzene Coin gibt +1 Coins. Er erscheint zu Beginn des Spiels an einem zufälligen Punkt auf dem Spielfeld. Sein Collider ist rund, da auch der Sprite rund ist und so das Einsammeln exakter und präziser ist.
+Der Bronzene Coin gibt +1 Coins. Er erscheint zu Beginn des Spiels an einem zufälligen Punkt auf dem Spielfeld. 
 
 ### Der Silberne Coin
 
@@ -65,17 +66,23 @@ Der Bronzene Coin gibt +1 Coins. Er erscheint zu Beginn des Spiels an einem zuf�
 
 ![C2 Eigenschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C2%20Eigenschaften.PNG)
 
+Der Silberne Coin gibt +2 Coins. Er erscheint zu Beginn ebenfalls an einem zufälligen Punkt auf dem Spielfeld.
+
 ### Der Goldene Coin
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C5.jpeg" alt="image" width="100">
 
 ![C5 Eigenschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C5%20Eigenschaften.PNG)
 
-### Der Coin mit rotem Kreis
+Der Goldene Coin ist der beste Coin. Er gibt +5 Coins. Auch dieser Coin erscheint zu Beginn an einem zufälligen Punkt innerhalb des Spielfelds.
+
+### Der Coin mit dem rotem Kreis
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/BadC.jpeg" alt="image" width="100">
 
 ![BC Eigesnschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/BC%20Eigenschaften.PNG)
+
+Entgegen seiner goldenen Farbe gibt dieser Coin keine Punkte. Im Gegenteil, dieser Coin gibt -1 Coin. Dieser Coin verhält sich wie alle anderen Coins auch und erscheint zu Beginn an einem zufälligen Ort. 
 
 ### Das Sammeln der Coins
 
@@ -84,6 +91,11 @@ Die Coins werden durch Berühren mit dem Spielcharakter eingesammmelt und ersche
 ![Collecting](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Collecting.PNG)
 
 Die Anzahl gesammelter Coins kann am oberen Rand des Spielfelds dem Coincounter entnommen werden.
+
+![Coincounter Spielfeld](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Coincounter.png)
+
+![Coincounter Variablen](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Coincounter%20Variablen.PNG)
+![Coincounter Code](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Coincounter%20Anzeige%20Code.PNG)
 
 Bild Coincounter
 <img src= alt="image" width="100">
@@ -96,6 +108,7 @@ Bei 30 gesammelten Münzen erscheint irgendwo ein großer, blinkender Coin in de
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC2.jpeg" alt="image" width="100">
 
 Wenn dieser Coin vom Charakter eingesammelt wird, hat dieser Spieler gewonnen. Wird dieser Coin jedoch vom Gegner eingesammelt, so wird der Coincounter auf 20 zurückgesetzt, sodass auch der andere Spieler noch eine Chance hat, das Spiel zu gewinnen. 
+
 
 ## Hindernisse
 Die Hindernisse in SpaceCollector sollen das Spielerlebnis spannender gestalten, indem sie die Spieler beim Sammeln der Coins behindern. In SpaceCollector gibt es drei Hindernisse: Eine Sonne in der Mitte des Spielfelds sowie zwei Raumschiffe, die in einem Viereck im Uhrzeigersinn um die Sonne herumfliegen.
