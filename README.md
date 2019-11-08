@@ -56,7 +56,7 @@ Sprites für links bzw. rechts bei Spieler 2.
 
 ![Keys1](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Keys%201.PNG)
 
-Code für die Steuerung bei Spieler 1. Die Sprites für links und rechts werden zusammen mit der Geschwindigkeit gewechselt. Die if-Schleife zur Zurücksetzung des Sprites und der Geschwindigkeit war nötig, da sonst die Sprites nicht mit der Bewegungsrichtung übereingestimmt hätten.
+Code für die Steuerung bei Spieler 1. Die Sprites für links und rechts werden zusammen mit der Geschwindigkeit gewechselt. Durch Gedrückthalten der Tasten wird man in die entsprechende Richtung immer schneller, die Spielfigur bescheleunigt. Dies wird durch das Verlassen des Spielfelds nicht beeinträchtigt. Es gibt keine Maximalgeschwindigkeit. Man hört augenblicklich auf, sich in eine Richtung zu bewegen, wenn man den Knopf loslässt. Es ist durch gleichzeitiges Drücken von zwei Tasten möglich, sich schräg über das Spielfeld zu bewegen. Die if-Schleife zur Zurücksetzung des Sprites und der Geschwindigkeit war nötig, da sonst die Sprites nicht mit der Bewegungsrichtung übereingestimmt hätten.
 
 
 Es ist möglich, am linken Spielfeldrand das Spielfeld zu verlassen und auf der rechten Seite zu erscheinen. Dasselbe gilt für die andere Richtung sowie den oberen und unteren Rand. Dieses Prinzip haben wir von dem Handyspiel "Doodle Jump" übernommen. Wir entschieden uns dafür, da sonst die Spielfiguren, einmal außerhalb des Spielfelds, nicht mehr sichtbar sind und nur schwer wieder in den sichtbaren Bereich zu navigieren sind. 
@@ -107,6 +107,7 @@ Entgegen seiner goldenen Farbe gibt dieser Coin keine Punkte. Im Gegenteil, dies
 ### Das Sammeln der Coins<a name="8"></a>
 
 Die Coins werden durch Berühren mit dem Spielcharakter eingesammmelt und erscheinen an einem zufälligen Ort erneut auf dem Spielfeld. Gleichzeitig werden dem Coincounter des Spielers, der den Coin eingesammelt hat, der entsprechende Wert des Coins gutgeschrieben.
+Wie dem oben gezeigten Code zu entnehmen ist, sind die Collider aller Coins auf "circle" gesetzt. Dies dient zur exakteren Darstellung des Einsammelns der Coins, da sonst auch "Nah-Dran-Vorbeilaufen" als Einsammeln gilt.
 
 ![Collecting](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Collecting.PNG)
 
