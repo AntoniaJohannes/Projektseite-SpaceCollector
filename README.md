@@ -50,9 +50,12 @@ Der Code zum Erscheinen auf der jeweils anderen Seite des Spielfelds bei Verlass
 
 
 ## Coins
+
+### Die verschiedenen Coins
+
 In "SpaceCollector" gibt es vier verschiedene Arten von Coins. Diese haben die Wertigkeiten 1, 2, 5 sowie -1. Die unterschiedlichen Wertigkeiten werden durch uterschiedliche Farben und Kennzeichnungen eindeutig gezeigt.
 
-### Der Bronzene Coin
+#### Der Bronzene Coin
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C1.jpeg" alt="image" width="100">
 
@@ -60,7 +63,7 @@ In "SpaceCollector" gibt es vier verschiedene Arten von Coins. Diese haben die W
 
 Der Bronzene Coin gibt +1 Coins. Er erscheint zu Beginn des Spiels an einem zufälligen Punkt auf dem Spielfeld. 
 
-### Der Silberne Coin
+#### Der Silberne Coin
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C2.jpeg" alt="image" width="100">
 
@@ -68,7 +71,7 @@ Der Bronzene Coin gibt +1 Coins. Er erscheint zu Beginn des Spiels an einem zuf�
 
 Der Silberne Coin gibt +2 Coins. Er erscheint zu Beginn ebenfalls an einem zufälligen Punkt auf dem Spielfeld.
 
-### Der Goldene Coin
+#### Der Goldene Coin
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C5.jpeg" alt="image" width="100">
 
@@ -76,7 +79,7 @@ Der Silberne Coin gibt +2 Coins. Er erscheint zu Beginn ebenfalls an einem zufä
 
 Der Goldene Coin ist der beste Coin. Er gibt +5 Coins. Auch dieser Coin erscheint zu Beginn an einem zufälligen Punkt innerhalb des Spielfelds.
 
-### Der Coin mit dem rotem Kreis
+#### Der Coin mit dem rotem Kreis
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/BadC.jpeg" alt="image" width="100">
 
