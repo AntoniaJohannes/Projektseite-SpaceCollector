@@ -27,6 +27,8 @@ Spieler 1 steuert die Spielfigur mit den Tasten WASD, Spieler 2 mit den Pfeiltas
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player1L.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player1R.jpeg" alt="image" width="100">
 
+![Keys1](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Keys%201.PNG)
+
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player2L.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player2R.jpeg" alt="image" width="100">
 
 Bilder Code Steuerung
