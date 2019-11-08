@@ -63,8 +63,7 @@ Die Hindernisse in SpaceCollector sollen das Spielerlebnis spannender gestalten,
 
 Bei den Raumschiffen haben wir verschiedene Spriteanimationen genutzt, um die Flugrichtung realistisch darzustellen.
 
-<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2.jpeg" alt="image" width="100">
-<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2R.jpeg" alt="image" width="100">
+<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2R.jpeg" alt="image" width="100">
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2L.jpeg" alt="image" width="100">
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2U.jpeg" alt="image" width="100">
 
