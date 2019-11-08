@@ -63,6 +63,8 @@ Der Bronzene Coin gibt +1 Coins. Er erscheint zu Beginn des Spiels an einem zuf√
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C2.jpeg" alt="image" width="100">
 
+![C2 Eigenschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C2%20Eigenschaften.PNG)
+
 ### Der Goldene Coin
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C5.jpeg" alt="image" width="100">
