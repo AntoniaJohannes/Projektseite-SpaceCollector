@@ -8,9 +8,17 @@
 
 [3. Spielfiguren und Steuerung](#3)
 
-[4. Coins](#4)
+[3.1 Spielfiguren](#4)
 
-[5. Hindernisse](#5)
+[3.2 Steuerung](#5)
+
+[4. Coins](#6)
+
+[4.1 Die verschiedenen Coins](#7)
+
+[4.2 Das Sammeln der Coins](#8)
+
+[5. Hindernisse](#9)
 
 
 
