@@ -22,11 +22,11 @@
 
 
 
-## Einleitung
+## Einleitung<a name="1"></a>
 SpaceCollector ist ein Spiel, welches wir während des Informatikunterrichts im 12. Jahrgang entwickelt und programmiert haben. Hierbei haben wir die Plattform studio.code.org genutzt, welche die Codesprache in einfachen Bausteinen darstellt und so das Programmieren ohne Vorkenntnisse erheblich erleichtert. Dies war für uns das ausschlaggebene Argument, diese Plattform zu wählen, da wir beide im Informatikunterricht das erste Mal mit Programmiersprachen in Kontakt waren. Nachdem wir verschiedene Spielmodelle in Erwägung gezogen hatten, entschieden wir uns ein Spiel des Collectorgenres. Nach dem Progammieren eines simplen Spiels ohne weitere Funktionen war es ein leichtes, das Grundspiel zu entwickeln. Die anschließende Weiterentwicklung war der Hauptbestandteil der Informatikstunden.
 Im folgenden Text werden wir unser Spiel erklären und auf Herausforderungen und Schwierigkeiten während des Prozesses eingehen.
 
-## Spielprinzip
+## Spielprinzip<a name="2"></a>
 Bei SpaceCollector konkurrieren zwei Aliens im All um verschiedene Coins. Im Hintergrund funkeln Sterne, um das All darzustellen. Die Coins werden durch simples Berühren eingesammelt. 
 Zu Beginn des Spiels erscheint Spieler 1 in der oberen linken Ecke, Spieler 2 in der unteren rechten Ecke. Die Sonne ist als zentrales Hindernis im Zentrum, darum herum fliegen zwei Raumschiffe. Diese beginnen in der unteren linken Ecke bzw. in der oberen rechten Ecke des Spielfelds, also in den Ecken, wo die Spieler sich zu Anfang nicht befinden.
 
@@ -34,13 +34,14 @@ Zu Beginn des Spiels erscheint Spieler 1 in der oberen linken Ecke, Spieler 2 in
 
 Ausgangssituation beim Start des Spiels
 
-## Spielfiguren und Steuerung
-### Die Spielfiguren
+## Spielfiguren und Steuerung<a name="3"></a>
+
+### Die Spielfiguren<a name="4"></a>
 Das Spiel wird von zwei Spielern gegeneinander gespielt. Spieler 1 steuert den grünen Alien, Spieler 2 den pinken Alien. Die Sprites für die Spielfiguren waren bei der Website bereits vorgefertigt und standen uns zur Verfügung.
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player1.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player2.jpeg" alt="image" width="100">
 
-### Steuerung
+### Steuerung<a name="5"></a>
 Spieler 1 steuert die Spielfigur mit den Tasten WASD, Spieler 2 mit den Pfeiltasten, wobei sich die Animation für links und rechts so verändert, als wenn die Spielfigur nach links bzw. rechts laufen würde.
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player1L.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player1R.jpeg" alt="image" width="100">
@@ -66,9 +67,9 @@ Es ist möglich, am linken Spielfeldrand das Spielfeld zu verlassen und auf der 
 Der Code zum Erscheinen auf der jeweils anderen Seite des Spielfelds bei Verlassen des Spielfelds auf einer beliebigen Seite. Dies ist der Code für Spieler 1, derselbe Code gilt für Spieler 2, welcher sich lediglich durch die Bezeichnungen des Sprites unterscheiden.
 
 
-## Coins
+## Coins<a name="6"></a>
 
-### Die verschiedenen Coins
+### Die verschiedenen Coins<a name="7"></a>
 
 In "SpaceCollector" gibt es vier verschiedene Arten von Coins. Diese haben die Wertigkeiten 1, 2, 5 sowie -1. Die unterschiedlichen Wertigkeiten werden durch uterschiedliche Farben und Kennzeichnungen eindeutig gezeigt.
 
@@ -104,7 +105,7 @@ Der Goldene Coin ist der beste Coin. Er gibt +5 Coins. Auch dieser Coin erschein
 
 Entgegen seiner goldenen Farbe gibt dieser Coin keine Punkte. Im Gegenteil, dieser Coin gibt -1 Coin. Dieser Coin verhält sich wie alle anderen Coins auch und erscheint zu Beginn an einem zufälligen Ort. 
 
-### Das Sammeln der Coins
+### Das Sammeln der Coins<a name="8"></a>
 
 Die Coins werden durch Berühren mit dem Spielcharakter eingesammmelt und erscheinen an einem zufälligen Ort erneut auf dem Spielfeld. 
 
@@ -129,7 +130,7 @@ Bei 30 gesammelten Münzen erscheint irgendwo ein großer, blinkender Coin in de
 Wenn dieser Coin vom Charakter eingesammelt wird, hat dieser Spieler gewonnen. Wird dieser Coin jedoch vom Gegner eingesammelt, so wird der Coincounter auf 20 zurückgesetzt, sodass auch der andere Spieler noch eine Chance hat, das Spiel zu gewinnen. 
 
 
-## Hindernisse
+## Hindernisse<a name="9"></a>
 Die Hindernisse in SpaceCollector sollen das Spielerlebnis spannender gestalten, indem sie die Spieler beim Sammeln der Coins behindern. In SpaceCollector gibt es drei Hindernisse: Eine Sonne in der Mitte des Spielfelds sowie zwei Raumschiffe, die in einem Viereck im Uhrzeigersinn um die Sonne herumfliegen.
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H1.jpeg" alt="image" width="100">
