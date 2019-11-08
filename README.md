@@ -13,7 +13,7 @@ Im folgenden Text werden wir unser Spiel erklären und auf Herausforderungen und
 Bei SpaceCollector konkurrieren zwei Aliens im All um verschiedene Coins. Im Hintergrund funkeln Sterne, um das All darzustellen. Die Coins werden durch simples Berühren eingesammelt. 
 Zu Beginn des Spiels erscheint Spieler 1 in der oberen linken Ecke, Spieler 2 in der unteren rechten Ecke. Die Sonne ist als zentrales Hindernis im Zentrum, darum herum fliegen zwei Raumschiffe. Diese beginnen in der unteren linken Ecke bzw. in der oberen rechten Ecke des Spielfelds, also in den Ecken, wo die Spieler sich zu Anfang nicht befinden.
 
-
+<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Ausgangssituation.PNG" alt="image" width="100">
 
 ## Spielfiguren und Steuerung
 Das Spiel wird von zwei Spielern gegeneinander gespielt. Spieler 1 steuert den grünen Alien, Spieler 2 den pinken Alien.
