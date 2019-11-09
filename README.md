@@ -56,12 +56,12 @@
 
 ## Einleitung<a name="1"></a>
 
-"SpaceCollector" ist ein Spiel, welches wir während des Informatikunterrichts im 12. Jahrgang entwickelt und programmiert haben. Hierbei haben wir die Plattform studio.code.org genutzt, welche die Codesprache in einfachen Bausteinen darstellt und so das Programmieren ohne Vorkenntnisse erheblich erleichtert. Dies war für uns das ausschlaggebene Argument, diese Plattform zu wählen, da wir beide im Informatikunterricht das erste Mal mit Programmiersprachen in Kontakt waren. Nachdem wir verschiedene Spielmodelle in Erwägung gezogen hatten, entschieden wir uns ein Spiel des Collectorgenres. Nach dem Progammieren eines simplen Spiels ohne weitere Funktionen war es ein leichtes, das Grundspiel zu entwickeln. Die anschließende Weiterentwicklung war der Hauptbestandteil der Informatikstunden.
+"SpaceCollector" ist ein Spiel, welches wir während des Informatikunterrichts im 12. Jahrgang entwickelt und programmiert haben. Hierbei haben wir die Plattform [studio.code.org](https://studio.code.org/home) genutzt, welche die Codesprache in einfachen Bausteinen darstellt und so das Programmieren ohne Vorkenntnisse erheblich erleichtert. Dies war für uns das ausschlaggebene Argument, diese Plattform zu wählen, da wir beide im Informatikunterricht das erste Mal mit Programmiersprachen in Kontakt waren. Nachdem wir verschiedene Spielmodelle in Erwägung gezogen hatten, entschieden wir uns ein Spiel des Collectorgenres. Nach dem Progammieren eines simplen Spiels ohne weitere Funktionen war es ein leichtes, das Grundspiel zu entwickeln. Die anschließende Weiterentwicklung war der Hauptbestandteil der Informatikstunden.
 Im folgenden Text werden wir unser Spiel erklären und auf Herausforderungen und Schwierigkeiten während des Prozesses eingehen. Wenn Codezeilen für Spieler 1 und Spieler 2 aus Übersichtsgründen im Code zwar in getrennten Funktionen geschrieben wurden, sich aber außer in der Bezeichnung nicht unterscheiden, werden wir aus Platzgründen exemplarisch den Code für Spieler 1 verwenden. Es ist dann davon auszugehen, dass der Code von Spieler 2 diesem entspricht.
 
 ## Spielprinzip<a name="2"></a>
 
-Bei "SpaceCollector" konkurrieren zwei Aliens im All um verschiedene Coins. Im Hintergrund funkeln Sterne, um das All darzustellen. Die Coins werden durch simples Berühren eingesammelt. Ziel des Spiels ist es, Coins im Wert von 30 Punkten einzusammeln, um so den finalen Coin erscheinen zu lassen.
+Bei "SpaceCollector" konkurrieren zwei Aliens im All um verschiedene [Coins]. Im Hintergrund funkeln Sterne, um das All darzustellen. Die Coins werden durch simples Berühren eingesammelt. Ziel des Spiels ist es, Coins im Wert von 30 Punkten einzusammeln, um so den finalen Coin erscheinen zu lassen.
 Zu Beginn des Spiels erscheint Spieler 1 in der oberen linken Ecke, Spieler 2 in der unteren rechten Ecke. Die Sonne ist als zentrales Hindernis im Zentrum, darum herum fliegen zwei Raumschiffe. Diese beginnen in der unteren linken Ecke bzw. in der oberen rechten Ecke des Spielfelds, also in den Ecken, wo die Spieler sich zu Anfang nicht befinden.
 
 ![Ausgangssituation](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Spawn.PNG)
@@ -70,11 +70,11 @@ Ausgangssituation beim Start des Spiels
 
 ## Gesamtcode und Codeinhaltsverzeichnis<a name="3"></a>
 
-Unser Code besteht aus einer Hauptfunktion, die das Spiel ausführt, und mehreren Unterfunktionen, die einzelne Bestandteile und Mechaniken des Spiels definieren. Um den Überblick zu wahren, sind alle mit einem charakteristischen Namen bezeichnet worden und in derselben Reihenfolge angeordnet, wie sie in der Hauptfunktion aufgelistet sind. In den obersten Codezeilen haben wir außerdem ein kleines Inhaltsverzeichnis eingefügt.
+Unser Code besteht aus einer [Hauptfunktion](#Hauptfunktion), die das Spiel ausführt, und mehreren Unterfunktionen, die einzelne Bestandteile und Mechaniken des Spiels definieren. Um den Überblick zu wahren, sind alle mit einem charakteristischen Namen bezeichnet worden und in derselben Reihenfolge angeordnet, wie sie in der Hauptfunktion aufgelistet sind. In den obersten Codezeilen haben wir außerdem ein kleines Inhaltsverzeichnis eingefügt.
 
 ![Inhaltsverzeichnis](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Code%20Inhaltsverzeichnis.PNG)
 
-![Hauptfunktion](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Gesamter%20Code.PNG)
+![Hauptfunktion](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Gesamter%20Code.PNG)<a name="Hauptfunktion"></a>
 
 ## Das Spielfeld<a name="4"></a>
 
