@@ -8,6 +8,8 @@
 
 [ Gesamtcode und Codeinhaltsverzeichnis](#)
 
+[ Das Spielfeld](#)
+
 [ Spielfiguren und Steuerung](#)
 
 [ Spielfiguren](#)
@@ -74,6 +76,14 @@ Unser Code besteht aus einer Hauptfunktion, die das Spiel ausführt, und mehrere
 
 ![Hauptfunktion](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Gesamter%20Code.PNG)
 
+## Das Spielfeld<a name=""></a>
+
+Das Spiel findet, wie der Name schon andeutet, im All statt. Der schwarze Hintergrund soll das All darstellen, während die gelben Punkte, die ständig die Position wechseln, funkelnde Sterne sein sollen. 
+
+![Setup](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Hintergrund%20Code.PNG)
+
+Um das Allthema aufrechtzuerhalten, werden die Spielfiguren durch verschiedenfarbige Aliens dargestellt und die Hindernisse durch eine Sonne und Raumschiffe verkörpert.
+
 ## Spielfiguren und Steuerung<a name=""></a>
 
 ### Die Spielfiguren<a name=""></a>
@@ -110,7 +120,7 @@ Der Code zum Erscheinen auf der jeweils anderen Seite des Spielfelds bei Verlass
 
 ### Die verschiedenen Coins<a name=""></a>
 
-In "SpaceCollector" gibt es vier verschiedene Arten von Coins. Diese haben die Wertigkeiten 1, 2, 5 sowie -1. Die unterschiedlichen Wertigkeiten werden durch uterschiedliche Farben und Kennzeichnungen eindeutig gezeigt.
+In "SpaceCollector" gibt es vier verschiedene Arten von Coins. Diese haben die Wertigkeiten +1, +2, +5 sowie -1. Die unterschiedlichen Wertigkeiten werden durch uterschiedliche Farben und Kennzeichnungen eindeutig gezeigt.
 
 #### Der Bronzene Coin<a name=""></a>
 
@@ -118,7 +128,7 @@ In "SpaceCollector" gibt es vier verschiedene Arten von Coins. Diese haben die W
 
 ![C1 Eigenschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C1%20Eigenschaften.PNG)
 
-Der Bronzene Coin gibt +1 Punkte. Er erscheint zu Beginn des Spiels an einem zufälligen Punkt auf dem Spielfeld. 
+Der Bronzene Coin gibt +1 Punkt. Er erscheint zu Beginn des Spiels an einem zufälligen Punkt auf dem Spielfeld. 
 
 #### Der Silberne Coin<a name=""></a>
 
