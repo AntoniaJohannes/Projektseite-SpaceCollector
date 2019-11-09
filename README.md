@@ -73,10 +73,10 @@ Ausgangssituation beim Start des Spiels
 ## Gesamtcode und Codeinhaltsverzeichnis<a name="3"></a>
 
 Unser Code besteht aus einer [Hauptfunktion](#Hauptfunktion), die das Spiel ausführt, und mehreren Unterfunktionen, die einzelne Bestandteile und Mechaniken des Spiels definieren. Um den Überblick zu wahren, sind alle mit einem charakteristischen Namen bezeichnet worden und in derselben Reihenfolge angeordnet, wie sie in der [Hauptfunktion](#Hauptfunktion) aufgelistet sind. In den obersten Codezeilen haben wir außerdem ein kleines [Inhaltsverzeichnis](#Codeinhaltsverzeichnis) eingefügt.
-
-![Inhaltsverzeichnis](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Code%20Inhaltsverzeichnis.PNG)<a name="Codeinhaltsverzeichnis"></a>
-
-![Hauptfunktion](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Gesamter%20Code.PNG)<a name="Hauptfunktion"></a>
+<a name="Codeinhaltsverzeichnis"></a>
+![Inhaltsverzeichnis](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Code%20Inhaltsverzeichnis.PNG)
+<aname="Hauptfunktion"></a>
+![Hauptfunktion](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Gesamter%20Code.PNG)
 
 ## Das Spielfeld<a name="4"></a>
 
