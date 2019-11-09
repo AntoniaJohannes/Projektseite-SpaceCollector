@@ -158,6 +158,8 @@ In SpaceCollector gibt es zusätzlich zu der Sonne zwei weitere, sich bewegende 
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2.jpeg" alt="image" width="100">
 
+#### Die Flugroute
+
 Die Raumschiffe fliegen um die Sonne in Form eines Vierecks im Uhrzeigersinn um die Sonne herum. Dabei startet ein Raumschiff oben rechts, das andere unten links.
 
 ![ME Eigenschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/ME%20Eigenschaften.PNG)
@@ -172,15 +174,17 @@ Code für das Raumschiff, das oben rechts startet. Die Bezeichnung für die Raum
 
 Code für das Raumschiff, das unten links startet.
 
+Um die Flugrichtungen relaistischer darzustellen, benutzen wir vier verschiedene Sprites für die Raumschiffe. Je nach Richtungswechsel wird der Sprite gleichzeitig mit der Geschwindigkeit geändert.
+
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2R.jpeg" alt="image" width="100">
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2L.jpeg" alt="image" width="100">
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2U.jpeg" alt="image" width="100">
 
+#### Die Kollision
 
+Bei Kontakt mit den Raumschiffen werden den Spielern 2 Punkte abgezogen. Auch hier prallen die Spieler beim Kontakt ab, um den massiven Punktverlust zu unterbinden. Allerdings stellen die Raumschiffe insofern ein gefährliches Hindernis dar, als dass sie die Spieler auf ihrer Flugroute vor sich her schieben können. Dies ist durchaus beabsichtigt.
 
-Bei Berühren der Raumschiffe werden 2 Coins abgezogen, bei Berühren der Sonne 3 Coins. Dabei prallen die Spielfiguren von dem Hindernissen ab, damit kein permanenter Kontakt und somit permanenter Coinverlust möglich ist.
-
-Bilder Code
+![Kollision mit Raumschiff](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Kollision%20Raumschiff.PNG)
 
 Sollte man durch den Hinderniskontakt auf 0 oder weniger Coins zurückgesetzt werden, wird die Spielfigur auf den Spawn zurückgesetzt und der Coincounter auf 0 gestellt, damit keine Minuspunkte möglich sind.
 
