@@ -229,6 +229,14 @@ Schafft es ein Spieler, den eigenen WinningCoin einzusammeln, so endet damit das
 
 <img src="https://github.com/AntoniaJohannes/Stundenprotokoll/blob/master/Bildschirmfoto%20Player%201%20wins%20.jpeg" alt="image" width="200">  <img src="https://github.com/AntoniaJohannes/Stundenprotokoll/blob/master/Bildschirmfoto%20Player%202%20wins.jpeg" alt="image" width="200"> 
 
+Dazu wird bei Einsammeln des eigenen WinningCoins ein neuer Hintergrund in hellblauer Farbe eingefügt. Zudem verschwinden alle Spieler, Coins, Hindernisse und alles andere, was sich noch vorher auf dem Feld befand.
+
+![Alles verschwindet](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Endbildschirm%20Code.PNG)
+
+Desweiteren wird die Steuerung beider Spieler außer Kraft gesetzt, da der WinningScreen nur so lange erscheint, wie der Gewinner seinen WinningCoin berührt. Um das Verschwinden des WinningScreens zu verhindern, haben wir deshalb die Steuerung ausgeschaltet.
+
+![No Keys](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/No%20Keys.PNG)
+
 
 
 
