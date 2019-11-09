@@ -225,9 +225,9 @@ Allerdings kann auch der Gegner den WinningCoin einsammeln. Gelingt es dem ander
 
 ### Einsammeln des eigenen WinningCoins<a name="15"></a>
 
+Schafft es ein Spieler, den eigenen WinningCoin einzusammeln, so endet damit das Spiel und es erscheint der sogenannte WinningScreen.
 
-
-
+![WinningScreen1](https://github.com/AntoniaJohannes/Stundenprotokoll/blob/master/Bildschirmfoto%20Player%201%20wins%20.jpeg)
 
 
 
