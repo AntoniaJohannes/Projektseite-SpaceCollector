@@ -61,8 +61,8 @@ Im folgenden Text werden wir unser Spiel erklären und auf Herausforderungen und
 
 ## Spielprinzip<a name="2"></a>
 
-Bei "SpaceCollector" konkurrieren zwei Aliens im All um verschiedene [Coins]. Im Hintergrund funkeln Sterne, um das All darzustellen. Die Coins werden durch simples Berühren eingesammelt. Ziel des Spiels ist es, Coins im Wert von 30 Punkten einzusammeln, um so den finalen Coin erscheinen zu lassen.
-Zu Beginn des Spiels erscheint Spieler 1 in der oberen linken Ecke, Spieler 2 in der unteren rechten Ecke. Die Sonne ist als zentrales Hindernis im Zentrum, darum herum fliegen zwei Raumschiffe. Diese beginnen in der unteren linken Ecke bzw. in der oberen rechten Ecke des Spielfelds, also in den Ecken, wo die Spieler sich zu Anfang nicht befinden.
+Bei "SpaceCollector" konkurrieren zwei Aliens im [All](#4) um verschiedene [Coins](#6). Im Hintergrund funkeln Sterne, um das [All](#4) darzustellen. Die [Coins](#6) werden durch simples Berühren [eingesammelt](6.2). Ziel des Spiels ist es, [Coins](#6) im Wert von 30 Punkten einzusammeln, um so den [finalen Coin](#8.1) erscheinen zu lassen.
+Zu Beginn des Spiels erscheint Spieler 1 in der oberen linken Ecke, Spieler 2 in der unteren rechten Ecke. Die [Sonne](#7.1) ist als zentrales [Hindernis](#7) im Zentrum, darum herum fliegen zwei [Raumschiffe](#7.2). Diese beginnen in der unteren linken Ecke bzw. in der oberen rechten Ecke des Spielfelds, also in den Ecken, wo die Spieler sich zu Anfang nicht befinden.
 
 ![Ausgangssituation](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Spawn.PNG)
 
@@ -70,29 +70,29 @@ Ausgangssituation beim Start des Spiels
 
 ## Gesamtcode und Codeinhaltsverzeichnis<a name="3"></a>
 
-Unser Code besteht aus einer [Hauptfunktion](#Hauptfunktion), die das Spiel ausführt, und mehreren Unterfunktionen, die einzelne Bestandteile und Mechaniken des Spiels definieren. Um den Überblick zu wahren, sind alle mit einem charakteristischen Namen bezeichnet worden und in derselben Reihenfolge angeordnet, wie sie in der Hauptfunktion aufgelistet sind. In den obersten Codezeilen haben wir außerdem ein kleines Inhaltsverzeichnis eingefügt.
+Unser Code besteht aus einer [Hauptfunktion](#Hauptfunktion), die das Spiel ausführt, und mehreren Unterfunktionen, die einzelne Bestandteile und Mechaniken des Spiels definieren. Um den Überblick zu wahren, sind alle mit einem charakteristischen Namen bezeichnet worden und in derselben Reihenfolge angeordnet, wie sie in der [Hauptfunktion](#Hauptfunktion) aufgelistet sind. In den obersten Codezeilen haben wir außerdem ein kleines [Inhaltsverzeichnis](#Inhaltsverzeichnis) eingefügt.
 
-![Inhaltsverzeichnis](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Code%20Inhaltsverzeichnis.PNG)
+![Inhaltsverzeichnis](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Code%20Inhaltsverzeichnis.PNG)<a name="Inhaltsverzeichnis"></a>
 
 ![Hauptfunktion](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Gesamter%20Code.PNG)<a name="Hauptfunktion"></a>
 
 ## Das Spielfeld<a name="4"></a>
 
-Das Spiel findet, wie der Name schon andeutet, im All statt. Der schwarze Hintergrund soll das All darstellen, während die gelben Punkte, die ständig die Position wechseln, funkelnde Sterne sein sollen. 
+Das Spiel findet, wie der Name schon andeutet, im [All](#4) statt. Der schwarze Hintergrund soll das [All](#4) darstellen, während die gelben Punkte, die ständig die Position wechseln, funkelnde Sterne sein sollen. 
 
 ![Setup](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Hintergrund%20Code.PNG)
 
-Um das Allthema aufrechtzuerhalten, werden die Spielfiguren durch verschiedenfarbige Aliens dargestellt und die Hindernisse durch eine Sonne und Raumschiffe verkörpert.
+Um das Allthema aufrechtzuerhalten, werden die [Spielfiguren](#5) durch verschiedenfarbige Aliens dargestellt und die [Hindernisse](#7) durch eine [Sonne](#7.1) und [Raumschiffe](#7.2) verkörpert.
 
 ## Spielfiguren und Steuerung<a name="">5</a>
 
 ### Die Spielfiguren<a name="5.1"></a>
-Das Spiel wird von zwei Spielern gegeneinander gespielt. Spieler 1 steuert den grünen Alien, Spieler 2 den pinken Alien. Die Sprites für die Spielfiguren waren bei der Website bereits vorgefertigt und standen uns zur Verfügung.
+Das Spiel wird von zwei Spielern gegeneinander gespielt. Spieler 1 steuert den grünen Alien, Spieler 2 den pinken Alien. Die Sprites für die [Spielfiguren](#5.1) waren bei der [Website](https://studio.code.org/home) bereits vorgefertigt und standen uns zur Verfügung.
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player1.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player2.jpeg" alt="image" width="100">
 
 ### Steuerung<a name="5.2"></a>
-Spieler 1 steuert die Spielfigur mit den Tasten WASD, Spieler 2 mit den Pfeiltasten, wobei sich die Animation für links und rechts so verändert, als wenn die Spielfigur nach links bzw. rechts laufen würde.
+Spieler 1 steuert die [Spielfigur](#5.1) mit den Tasten WASD, Spieler 2 mit den Pfeiltasten, wobei sich die Animation für links und rechts so verändert, als wenn die [Spielfigur](#5.1) nach links bzw. rechts laufen würde.
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player1L.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player1R.jpeg" alt="image" width="100">
 
@@ -106,21 +106,21 @@ Sprites für links bzw. rechts bei Spieler 2.
 
 ![Keys1](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Keys%201.PNG)
 
-Code für die Steuerung bei Spieler 1. Die Sprites für links und rechts werden zusammen mit der Geschwindigkeit geändert. Durch Gedrückthalten der Tasten wird man in die entsprechende Richtung immer schneller, die Spielfigur beschleunigt. Dies wird durch das Verlassen des Spielfelds nicht beeinträchtigt. Es gibt keine Maximalgeschwindigkeit. Man hört augenblicklich auf, sich in eine Richtung zu bewegen, wenn man den Knopf loslässt. Es ist durch gleichzeitiges Drücken von zwei Tasten möglich, die Spielfigur schräg über das Spielfeld zu bewegen. Die if-Schleifen zur Zurücksetzung des Sprites und der Geschwindigkeit war nötig, da sonst die Darstellung der Spielfiguren nicht mit der Bewegungsrichtung übereingestimmt hätten.
+Code für die [Steuerung](5.2) bei Spieler 1. Die Sprites für links und rechts werden zusammen mit der Geschwindigkeit geändert. Durch Gedrückthalten der Tasten wird man in die entsprechende Richtung immer schneller, die [Spielfigur](#5.1) beschleunigt. Dies wird durch das Verlassen des [Spielfelds](#4) nicht beeinträchtigt. Es gibt keine Maximalgeschwindigkeit. Man hört augenblicklich auf, sich in eine Richtung zu bewegen, wenn man den Knopf loslässt. Es ist durch gleichzeitiges Drücken von zwei Tasten möglich, die [Spielfigur](#5.1) schräg über das [Spielfeld](#4) zu bewegen. Die if-Schleifen zur Zurücksetzung des Sprites und der Geschwindigkeit war nötig, da sonst die Darstellung der [Spielfiguren](#5.1) nicht mit der Bewegungsrichtung übereingestimmt hätten.
 
 
-Wenn der Sprite z.B. das Spielfeld auf der linken Seite verlässt, erscheint er auf derselben Höhe auf der rechten Seite. Dasselbe gilt für die andere Richtung sowie den oberen und unteren Rand. Dieses Prinzip haben wir von dem bekannten Handyspiel "Doodle Jump" übernommen. Wir entschieden uns dafür, da sonst die Spielfiguren, einmal außerhalb des Spielfelds, nicht mehr sichtbar sind und nur schwer wieder in den sichtbaren Bereich zu navigieren sind. 
+Wenn der Sprite z.B. das [Spielfeld](#4) auf der linken Seite verlässt, erscheint er auf derselben Höhe auf der rechten Seite. Dasselbe gilt für die andere Richtung sowie den oberen und unteren Rand. Dieses Prinzip haben wir von dem bekannten Handyspiel "Doodle Jump" übernommen. Wir entschieden uns dafür, da sonst die [Spielfiguren](#5.1), einmal außerhalb des [Spielfelds](#4), nicht mehr sichtbar sind und nur schwer wieder in den sichtbaren Bereich zu navigieren sind. 
 
 ![Edges](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Edge.PNG)
 
-Der Code zum Erscheinen auf der jeweils anderen Seite des Spielfelds bei Verlassen des Spielfelds auf einer beliebigen Seite.
+Der Code zum Erscheinen auf der jeweils anderen Seite des [Spielfelds](#4) bei Verlassen des [Spielfelds](#4) auf einer beliebigen Seite.
 
 
 ## Coins<a name="6"></a>
 
 ### Die verschiedenen Coins<a name="6.1"></a>
 
-In "SpaceCollector" gibt es vier verschiedene Arten von Coins. Diese haben die Wertigkeiten +1, +2, +5 sowie -1. Die unterschiedlichen Wertigkeiten werden durch uterschiedliche Farben und Kennzeichnungen eindeutig gezeigt.
+In "SpaceCollector" gibt es vier verschiedene Arten von [Coins](#6). Diese haben die Wertigkeiten +1, +2, +5 sowie -1. Die unterschiedlichen Wertigkeiten werden durch uterschiedliche Farben und Kennzeichnungen eindeutig gezeigt.
 
 #### Der Bronzene Coin<a name="6.1.1"></a>
 
@@ -128,7 +128,7 @@ In "SpaceCollector" gibt es vier verschiedene Arten von Coins. Diese haben die W
 
 ![C1 Eigenschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C1%20Eigenschaften.PNG)
 
-Der Bronzene Coin gibt +1 Punkt. Er erscheint zu Beginn des Spiels an einem zufälligen Punkt auf dem Spielfeld. 
+Der Bronzene Coin gibt +1 Punkt. Er erscheint zu Beginn des Spiels an einem zufälligen Punkt auf dem [Spielfeld](#4). 
 
 #### Der Silberne Coin<a name="6.1.2"></a>
 
@@ -136,7 +136,7 @@ Der Bronzene Coin gibt +1 Punkt. Er erscheint zu Beginn des Spiels an einem zuf�
 
 ![C2 Eigenschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C2%20Eigenschaften.PNG)
 
-Der Silberne Coin gibt +2 Punkte. Er erscheint zu Beginn ebenfalls an einem zufälligen Punkt auf dem Spielfeld.
+Der Silberne Coin gibt +2 Punkte. Er erscheint zu Beginn ebenfalls an einem zufälligen Punkt auf dem [Spielfeld](#4).
 
 #### Der Goldene Coin<a name="6.1.3"></a>
 
@@ -144,7 +144,7 @@ Der Silberne Coin gibt +2 Punkte. Er erscheint zu Beginn ebenfalls an einem zuf�
 
 ![C5 Eigenschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C5%20Eigenschaften.PNG)
 
-Der Goldene Coin ist der beste Coin. Er gibt +5 Punkte. Auch dieser Coin erscheint zu Beginn an einem zufälligen Punkt innerhalb des Spielfelds.
+Der Goldene Coin ist der beste [Coin](#6). Er gibt +5 Punkte. Auch dieser [Coin](#6) erscheint zu Beginn an einem zufälligen Punkt innerhalb des [Spielfelds](#4).
 
 #### Der BadCoin<a name="6.1.4"></a>
 
@@ -152,17 +152,17 @@ Der Goldene Coin ist der beste Coin. Er gibt +5 Punkte. Auch dieser Coin erschei
 
 ![BC Eigesnschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/BC%20Eigenschaften.PNG)
 
-Entgegen seiner goldenen Farbe gibt dieser Coin keine Punkte. Im Gegenteil, dieser Coin gibt -1 Punkt und wird im Code deshalb als "badcoin" bezeichnet. Dieser Coin verhält sich wie alle anderen Coins auch und erscheint zu Beginn an einem zufälligen Ort. 
+Entgegen seiner goldenen Farbe gibt dieser [Coin](#6) keine Punkte. Im Gegenteil, dieser [Coin](#6) gibt -1 Punkt und wird im Code deshalb als "badcoin" bezeichnet. Dieser [Coin](#6) verhält sich wie alle anderen [Coins](#6) auch und erscheint zu Beginn an einem zufälligen Ort. 
 
 ### Das Sammeln der Coins<a name="6.2"></a>
 
-Die Coins werden durch Berühren mit dem Spielcharakter eingesammmelt und erscheinen an einem zufälligen Ort erneut auf dem Spielfeld. Gleichzeitig werden dem Coincounter des Spielers, der den Coin eingesammelt hat, der entsprechende Wert des Coins gutgeschrieben.
-Wie dem oben gezeigten Code zu entnehmen ist, sind die Collider aller Coins auf "circle" gesetzt. Dies dient zur exakteren Darstellung des Einsammelns der Coins, da sonst auch "Nah-Dran-Vorbeilaufen" als Einsammeln gilt.
+Die [Coins](#6) werden durch Berühren mit dem [Spielcharakter](5.1) eingesammmelt und erscheinen an einem zufälligen Ort erneut auf dem [Spielfeld](#4). Gleichzeitig werden dem Coincounter des Spielers, der den [Coin](#6) eingesammelt hat, der entsprechende Wert des [Coins](#6) gutgeschrieben.
+Wie dem oben gezeigten Code zu entnehmen ist, sind die Collider aller [Coins](#6) auf "circle" gesetzt. Dies dient zur exakteren Darstellung des Einsammelns der [Coins](#6), da sonst auch "Nah-Dran-Vorbeilaufen" als Einsammeln gilt.
 
 ![Collecting](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Collecting.PNG)
 
-Um Minuspunkte zu verhindern, wird beim Einsammeln eines Badcoins, während man 0 Punkte hat, der eigene Coincounter auf 0 gesetzt. 
-Die Anzahl gesammelter Coins kann am oberen Rand des Spielfelds dem Coincounter entnommen werden.
+Um Minuspunkte zu verhindern, wird beim Einsammeln eines [Badcoins](#6.1.4), während man 0 Punkte hat, der eigene Coincounter auf 0 gesetzt. 
+Die Anzahl gesammelter [Coins](#6) kann am oberen Rand des [Spielfelds](#6) dem Coincounter entnommen werden.
 
 ![Coincounter Spielfeld](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Coincounter.png)
 
@@ -172,7 +172,7 @@ Die Anzahl gesammelter Coins kann am oberen Rand des Spielfelds dem Coincounter 
 
 
 ## Hindernisse<a name="7"></a>
-Die Hindernisse in SpaceCollector sollen das Spielerlebnis spannender gestalten, indem sie die Spieler beim Sammeln der Coins behindern. In SpaceCollector gibt es drei Hindernisse: Eine Sonne in der Mitte des Spielfelds sowie zwei Raumschiffe.
+Die [Hindernisse](#7) in "SpaceCollector" sollen das Spielerlebnis spannender gestalten, indem sie die Spieler beim [Sammeln der Coins](#6.2) behindern. In "SpaceCollector" gibt es drei [Hindernisse](#7): Eine [Sonne](#7.1) in der Mitte des [Spielfelds](#4) sowie zwei [Raumschiffe](#7.2).
 
 ### Die Sonne<a name="7.1"></a>
 
@@ -180,46 +180,45 @@ Die Hindernisse in SpaceCollector sollen das Spielerlebnis spannender gestalten,
 
 ![Sonne Code](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Sonne%20Eigenschaften.PNG)
 
-Die Sonne ist im Zentrum des Spielfelds. Die wechselnde Animation am Rand der Sonne soll sie ein wenig gefährlicher aussehen lassen, ebenso wie die wechselnde Augenfarbe. 
+Die [Sonne](#7.1) ist im Zentrum des [Spielfelds](#4). Die wechselnde Animation am Rand der [Sonne](#7.1) soll sie ein wenig gefährlicher aussehen lassen, ebenso wie die wechselnde Augenfarbe. 
 
 #### Kollision und Punktverlust<a name="7.1.1"></a>
 
-Bei Kontakt mit der Sonne verlieren die Spieler 3 Punkte. Damit ist die Sonne das gefährlichste Hindernis im Spiel. Um permanenten Kontakt mit der Sonne und somit permanenten Punktverlust zu verhindern, prallen die Spieler bei Kontakt von der Sonne ab.
-Die Stärke des Abprallens haben wir von vornherein in den Eigenschaften der Sprites der Spielfiguren festgelegt. Dies kann dem obigen Code unter "bounciness" entnommen werden.
+Bei Kontakt mit der [Sonne](#7.1) verlieren die [Spieler](#5.1) 3 Punkte. Damit ist die [Sonne](#7.1) das gefährlichste [Hindernis](#7) im Spiel. Um permanenten Kontakt mit der [Sonne](#7.1) und somit permanenten Punktverlust zu verhindern, prallen die [Spieler](#5.1) bei Kontakt von der [Sonne](#7.1) ab.
 
-![Kollision Sonne](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Sonne%20Kollision.PNG)
+![Kollision Sonne](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Sonne%20Kollision.PNG)<a name="0"></a>
 
-Wie dem Code zu entnehmen ist, wird bei der Kollision geprüft, wie viele Punkte der Spieler hat. Sollten es mehr als 0 sein (bzw. weniger als 100, wir gehen davon aus, dass niemand je 100 Coins sammelt), so verliert er die besagten 3 Punkte. Sollte der Punktestand des Spielers so niedrig sein, dass er nach der Kollision auf 0 oder weniger Punkte abrutscht, wird er an seinen Anfangspunkt zurückgesetzt, im Beispiel von Spieler 1 an die Koordinaten 50/50, und der Punktestand wird auf 0 gestellt. Dies haben wir als kleine Strafe gedacht, um die Spieler bei niedrigem Punktestand zu besonders vorsichtigem Spielen zu bewegen.  
+Die Stärke des Abprallens haben wir von vornherein in den Eigenschaften der Sprites der [Spielfiguren](#5.1) festgelegt. Dies kann dem [obigen Code](#0) unter "bounciness" entnommen werden.
+Wie dem Code zu entnehmen ist, wird bei der Kollision geprüft, wie viele Punkte der [Spieler](#5.1) hat. Sollten es mehr als 0 sein (bzw. weniger als 100, wir gehen davon aus, dass niemand je 100 [Coins](#6) sammelt), so verliert er die besagten 3 Punkte. Sollte der Punktestand des [Spielers](#5.1) so niedrig sein, dass er nach der Kollision auf 0 oder weniger Punkte abrutscht, wird er an seinen Anfangspunkt zurückgesetzt, im Beispiel von Spieler 1 an die Koordinaten 50/50, und der Punktestand wird auf 0 gestellt. Dies haben wir als kleine Strafe gedacht, um die Spieler bei niedrigem Punktestand zu besonders vorsichtigem Spielen zu bewegen.  
 
 #### Das Münzenproblem<a name="7.1.2"></a>
+Nachdem wir die [Sonne](#7.1) als [Hindernis](#7) eingeführt hatten, fiel uns schnell ein schwerwiegendes Problem auf: Die [Coins](#6) konnten hinter der [Sonne](#7.1) erscheinen und so für die [Spieler](5.1) unnereichbar sein. Um dies zu verhindern, haben wir eine [weitere Funktion](#0.1) programmiert, die prüft, ob die [Coins](#6) an ihrem Erscheinungsort die [Sonne](#7.1) berühren. Sollte dies der Fall sein, erscheinen sie einfach an einem neuen Ort auf dem [Spielfeld](#4). Dabei werden selbstverständlich keinem [Spieler](#5.1) Punkte angerechnet, obwohl die [Coins](#6) die Position wechseln.
 
-Nachdem wir die Sonne als Hindernis eingeführt hatten, fiel uns schnell ein schwerwiegendes Problem auf: Die Münzen konnten hinter der Sonne erscheinen und so für die Spieler unnereichbar sein. Um dies zu verhindern, haben wir eine weitere Funktion programmiert, die prüft, ob die Coins an ihrem Erscheinungsort die Sonne berühren. Sollte dies der Fall sein, erscheinen sie einfach an einem neuen Ort auf dem Spielfeld. Dabei werden selbstverständlich keinem Spieler Punkte angerechnet, obwohl die Coins ja die Position wechseln.
-
-![Keine Coins hinter der Sonne Code](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Hidingcoins.PNG)
+![Keine Coins hinter der Sonne Code](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Hidingcoins.PNG)<a name="0.1"></a>
 
 ### Die Raumschiffe<a name="7.2"></a>
 
-In SpaceCollector gibt es zusätzlich zu der Sonne zwei weitere, sich bewegende Hindernisse in Gestalt von zwei identisch aussehenden Raumschiffen.
+In "SpaceCollector" gibt es zusätzlich zu der [Sonne](#7.1) zwei weitere, sich bewegende [Hindernisse](#7) in Gestalt von zwei identisch aussehenden [Raumschiffen](#7.2).
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2.jpeg" alt="image" width="100">
 
 #### Die Flugroute<a name="7.2.1"></a>
 
-Die Raumschiffe fliegen in Form eines Vierecks im Uhrzeigersinn um die Sonne herum. Dabei startet ein Raumschiff oben rechts, das andere unten links.
+Die [Raumschiffe](#7.2) fliegen in Form eines Vierecks im Uhrzeigersinn um die [Sonne](#7.1) herum. Dabei startet ein [Raumschiff](#7.2) oben rechts, das andere unten links.
 
 ![ME Eigenschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/ME%20Eigenschaften.PNG)
 
-Die Route der Raumschiffe wird durch if-Schleifen, die die Position der Raumschiffe überprüfen, und velocityX- bzw. velocityY- Befehle, die die Geschwindigkeit der Raumschiffe in eine Richtung steuern, definiert. Der Code sieht bei beiden Raumschiffen gleich aus, aufgrund der unterschiedlichen Startpunkte unterscheidet sich allerdings die Reihenfolge der einzelnen if-Schleifen.
+Die Route der [Raumschiffe](#7.2) wird durch if-Schleifen, die die Position der [Raumschiffe](#7.2) überprüfen, und velocityX- bzw. velocityY- Befehle, die die Geschwindigkeit der [Raumschiffe](#7.2) in eine Richtung steuern, definiert. Der Code sieht bei beiden [Raumschiffen](#7.2) gleich aus, aufgrund der unterschiedlichen Startpunkte unterscheidet sich allerdings die Reihenfolge der einzelnen if-Schleifen.
 
 ![ME1 Route](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/ME1%20Route.PNG)
 
-Code für das Raumschiff, das unten links startet. Die Bezeichnung für die Raumschiffe im Code sind "me1" und "me2" für "Moving Enemy 1/2".
+Code für das [Raumschiff](#7.2), das unten links startet. Die Bezeichnung für die [Raumschiffe](#7.2) im Code sind "me1" und "me2" für "Moving Enemy 1/2".
 
 ![ME2 Route](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/ME2%20Route.PNG)
 
-Code für das Raumschiff, das oben rechts startet.
+Code für das [Raumschiff](#7.2), das oben rechts startet.
 
-Um die Flugrichtungen realistischer darzustellen, benutzen wir vier verschiedene Sprites für die Raumschiffe. Je nach Richtungswechsel wird der Sprite gleichzeitig mit der Geschwindigkeit geändert.
+Um die Flugrichtungen realistischer darzustellen, benutzen wir vier verschiedene Sprites für die [Raumschiffe](#7.2). Je nach Richtungswechsel wird der Sprite gleichzeitig mit der Geschwindigkeit geändert.
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2R.jpeg" alt="image" width="100">
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2L.jpeg" alt="image" width="100">
