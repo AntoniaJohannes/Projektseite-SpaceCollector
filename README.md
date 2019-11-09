@@ -20,6 +20,10 @@
 
 [5. Hindernisse](#9)
 
+[5.1 Die Sonne](#10)
+
+[5.2 Die Raumschiffe](#11)
+
 
 
 ## Einleitung<a name="1"></a>
@@ -125,7 +129,7 @@ Die Anzahl gesammelter Coins kann am oberen Rand des Spielfelds dem Coincounter 
 ## Hindernisse<a name="9"></a>
 Die Hindernisse in SpaceCollector sollen das Spielerlebnis spannender gestalten, indem sie die Spieler beim Sammeln der Coins behindern. In SpaceCollector gibt es drei Hindernisse: Eine Sonne in der Mitte des Spielfelds sowie zwei Raumschiffe.
 
-### Die Sonne
+### Die Sonne<a name="10"></a>
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H1.jpeg" alt="image" width="100">
 
@@ -139,7 +143,7 @@ Die Stärke des Abprallens haben wir von vornherein in den Eigenschaften der Spr
 
 Wie dem Code zu entnehmen ist, wird bei der Kollision geprüft, wie viele Punkte der Spieler hat. Sollten es mehr als 0 sein (bzw. weniger als 100, wir gehen davon aus, dass niemand je 100 Coins sammelt), so verliert er die besagten 3 Punkte. Sollten der Punktestand des Spielers so niedrig sein, dass er nach der Kollision auf 0 oder weniger Punkte abrutscht, wird er an seinen Anfangspunkt zurückgesetzt, im Beispiel von Spieler 1 an die Koordinaten 50/50. Dies haben wir als kleine Strafe gedacht, um die Spieler bei niedrigem Punktestand zu besonders vorsichtigem Spielen zu bewegen.  
 
-### Die Raumschiffe
+### Die Raumschiffe<a name="11"></a>
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2.jpeg" alt="image" width="100">
 
