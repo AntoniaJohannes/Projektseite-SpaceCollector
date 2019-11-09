@@ -206,7 +206,7 @@ Die Route der Raumschiffe wird durch if-Schleifen, die die Position der Raumschi
 
 Code für das Raumschiff, das oben rechts startet. Die Bezeichnung für die Raumschiffe im Code sind "me1" und "me2" für "Moving Enemy 1/2".
 
-![ME2 Route](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/ME1%20Route.PNG)
+![ME2 Route](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/ME2%20Route.PNG)
 
 Code für das Raumschiff, das unten links startet.
 
