@@ -131,7 +131,7 @@ Die Hindernisse in SpaceCollector sollen das Spielerlebnis spannender gestalten,
 
 ### Die Sonne<a name="10"></a>
 
-<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H1.jpeg" alt="image" width="100">
+<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H1.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Sonne%202.PNG" alt="image" width="100">
 
 ![Sonne Code](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Sonne%20Eigenschaften.PNG)
 
