@@ -143,6 +143,12 @@ Die Stärke des Abprallens haben wir von vornherein in den Eigenschaften der Spr
 
 Wie dem Code zu entnehmen ist, wird bei der Kollision geprüft, wie viele Punkte der Spieler hat. Sollten es mehr als 0 sein (bzw. weniger als 100, wir gehen davon aus, dass niemand je 100 Coins sammelt), so verliert er die besagten 3 Punkte. Sollten der Punktestand des Spielers so niedrig sein, dass er nach der Kollision auf 0 oder weniger Punkte abrutscht, wird er an seinen Anfangspunkt zurückgesetzt, im Beispiel von Spieler 1 an die Koordinaten 50/50. Dies haben wir als kleine Strafe gedacht, um die Spieler bei niedrigem Punktestand zu besonders vorsichtigem Spielen zu bewegen.  
 
+#### Das Münzenproblem
+
+Nachdem wir die Sonne als Hindernis eingeführt hatten, fiel uns schnell ein schwerwiegendes Problem auf: Die Münzen konnten hinter der Sonne erscheinen und so für die Spieler unnereichbar sein. Um dies zu verhindern, haben wir eine weitere Funktion programmiert, die prüft, ob die Coins an ihrem Erscheinungsort die Sonne berühren. Sollte dies der Fall sein, erscheinen sie einfach an einem neuen Ort auf dem Spielfeld. Dabei werden selbstverständlich keinem Spieler Punkte angerechnet, obwohl die Coins ja die Position wechseln.
+
+![Keine Coins hinter der Sonne Code](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Hidingcoins.PNG)
+
 ### Die Raumschiffe<a name="11"></a>
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2.jpeg" alt="image" width="100">
