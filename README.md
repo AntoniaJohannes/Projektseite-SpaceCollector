@@ -184,7 +184,7 @@ Um die Flugrichtungen relaistischer darzustellen, benutzen wir vier verschiedene
 
 Bei Kontakt mit den Raumschiffen werden den Spielern 2 Punkte abgezogen. Auch hier prallen die Spieler beim Kontakt ab, um den massiven Punktverlust zu unterbinden. Allerdings stellen die Raumschiffe insofern ein gefährliches Hindernis dar, als dass sie die Spieler auf ihrer Flugroute vor sich her schieben können. Dies ist durchaus beabsichtigt.
 
-![Kollision mit Raumschiff](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Kollision%20Raumschiff.PNG)
+![Kollision mit Raumschiff](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Kollision%20Raumschiff.PNG)![Kollision mit Raumschiff 2](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Kollision%20Raumschiff%202.PNG)
 
 Sollte man durch den Hinderniskontakt auf 0 oder weniger Coins zurückgesetzt werden, wird die Spielfigur auf den Spawn zurückgesetzt und der Coincounter auf 0 gestellt, damit keine Minuspunkte möglich sind.
 
