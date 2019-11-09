@@ -186,11 +186,15 @@ Bei Kontakt mit den Raumschiffen werden den Spielern 2 Punkte abgezogen. Auch hi
 
 ![Kollision mit Raumschiff](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Kollision%20Raumschiff.PNG)![Kollision mit Raumschiff 2](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Kollision%20Raumschiff%202.PNG)
 
-Sollte man durch den Hinderniskontakt auf 0 oder weniger Coins zurückgesetzt werden, wird die Spielfigur auf den Spawn zurückgesetzt und der Coincounter auf 0 gestellt, damit keine Minuspunkte möglich sind.
+Wie bei der Sonne wird auch bei den Raumschiffkollisionen geprüft, ob die Spieler mit der Kollsion auf 0 Punkte fallen. Sollte dies der Fall sein, wird auch hier der Spieler wieder auf seinen Anfangspunkt zurückgesetzt.
 
-Bild Code
+Das Münzenproblem tritt bei den Raumschiffen nicht auf, da sie sich bewegen. Würden wir eine ähnliche Schleife wie bei der Sonne einführen, würden die Coins ständig ihre Position wechseln, ohne dass die Spieler sie einsammeln. Dies würde das Spiel stark beeinflussen.
+Stattdessen fliegen die Raumschiffe über die Coins herüber. Dadurch sind sie nur kurzzeitig blockiert, können aber weiterhin problemlos eingesammelt werden, nachdem das Raumschiff weitergeflogen ist. Dass die Raumschiffe über die Coins herüber und nicht unter durch fliegen, liegt an der Reihenfolge, in der wir die Sprites eingeführt haben. Im Code ganz oben haben wir die verschiedenen Sprites alle eingeführt und dabei die Coins zuerst genannt. Bei dieser Codesprache überdeckt immer der zuletzt genannte Sprite sämtliche vorher genannten. Somit mussten wir nur die Raumschiffe nach den Coins einführen, um diese Darstellung realisieren zu können. Dies ist unserem Code Inhaltsverzeichnis vom Anfang zu entnehmen.
+
+![Coins vor Hindernissen](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Coins%20vor%20Obstacles.PNG)
 
 
+### Spielende
 
 ## Der Endbildschirm
 Sollte es einem Spieler gelingen, den eigenen WinningCoin einzusammeln, verschwindet das Spielfeld mit sämtlichen Spielfiguren, Münzen und Hindernissen und es erscheint der Endbildschirm. Dieser zeigt die Spielfigur des Gewinners in Siegerpose neben einer Goldmedaille auf hellblauem Grund. Dazu kommen die Textausgaben "Congratulations" und "Player 1 Wins" bzw. Player 2 Wins". 
