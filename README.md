@@ -196,8 +196,9 @@ Stattdessen fliegen die Raumschiffe über die Coins herüber. Dadurch sind sie n
 ![Coins vor Hindernissen](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Coins%20vor%20Obstacles.PNG)
 
 
-### Spielende<a name="12"></a>
+## Spielende<a name="12"></a>
 
+### Die WinningCoins erscheinen
 Sollte es einem Spieler gelingen, 30 Coins zu sammeln, so erscheint ein Coin in seiner Farbe auf dem Spielfeld.  
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC1.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC2.jpeg" alt="image" width="100">
@@ -210,12 +211,23 @@ Zu dem Zeitpunkt, an welchem der Spieler 30 Punkte sammelt, wird sein WinningCoi
 
 ![WC1 erscheint](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC1%20erscheint.PNG)
 
-Allerdings kann auch der Gegner den WinningCoin einsammeln. Gelingt es dem anderen Spieler, den WinningCoin seinem Gegner wegzuschnappen, verhindert er so den Sieg zu diesem Zeitpunkt. Denn dadurch wird der Coincounter des Spielers, der zuvor noch 30 Punkte hatte, auf 20 zurückgesetzt. Dadurch verschwindet auch der WinningCoin. Damit man sich nicht merken kann, wo der WinningCoin vorher war, wird dieser außerdem auf eine andere zufällige Position gesetzt. 
+### Einsammeln des gegnerischen WinningCoins
+
+Allerdings kann auch der Gegner den WinningCoin einsammeln. Gelingt es dem anderen Spieler, den WinningCoin seinem Gegner wegzuschnappen, verhindert er so den Sieg zu diesem Zeitpunkt. Denn dadurch wird der Coincounter des Spielers, der zuvor noch 30 Punkte hatte, auf 20 zurückgesetzt. Dadurch verschwindet auch der WinningCoin, wie in dem obigen Code vorgesehen. Damit man sich nicht merken kann, wo der WinningCoin vorher war, wird dieser außerdem auf eine andere zufällige Position gesetzt. 
 
 ![Hiding WC1](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Hiding%20WC1.PNG)
 
-## Der Endbildschirm
-Sollte es einem Spieler gelingen, den eigenen WinningCoin einzusammeln, verschwindet das Spielfeld mit sämtlichen Spielfiguren, Münzen und Hindernissen und es erscheint der Endbildschirm. Dieser zeigt die Spielfigur des Gewinners in Siegerpose neben einer Goldmedaille auf hellblauem Grund. Dazu kommen die Textausgaben "Congratulations" und "Player 1 Wins" bzw. Player 2 Wins". 
+### Einsammeln des eigenen WinningCoins
+
+
+
+
+
+
+
+
+
+
 
 Bilder WinningScreens
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/M.jpeg" alt="image" width="100">
@@ -223,20 +235,4 @@ Bilder WinningScreens
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player2W.jpeg" alt="image" width="100">
 
 Dies ist das Ende des Spiels.
-
-
-
-
-
-
-
-
-
-
-Bei 30 gesammelten Münzen erscheint irgendwo ein großer, blinkender Coin in der Farbe des Charakters.
-
-
-
-
-Wenn dieser Coin vom Charakter eingesammelt wird, hat dieser Spieler gewonnen. Wird dieser Coin jedoch vom Gegner eingesammelt, so wird der Coincounter auf 20 zurückgesetzt, sodass auch der andere Spieler noch eine Chance hat, das Spiel zu gewinnen. 
 
