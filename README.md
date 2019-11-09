@@ -24,6 +24,8 @@
 
 [5.2 Die Raumschiffe](#11)
 
+[6. Spielende](#12)
+
 
 
 ## Einleitung<a name="1"></a>
@@ -194,7 +196,13 @@ Stattdessen fliegen die Raumschiffe über die Coins herüber. Dadurch sind sie n
 ![Coins vor Hindernissen](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Coins%20vor%20Obstacles.PNG)
 
 
-### Spielende
+### Spielende<a name="12"></a>
+
+Sollte es einem Spieler gelingen, 30 Coins zu sammeln, so erscheint ein Coin in seiner Farbe auf dem Spielfeld. 
+
+<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC1.jpeg" alt="image" width="100">
+
+<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC2.jpeg" alt="image" width="100">
 
 ## Der Endbildschirm
 Sollte es einem Spieler gelingen, den eigenen WinningCoin einzusammeln, verschwindet das Spielfeld mit sämtlichen Spielfiguren, Münzen und Hindernissen und es erscheint der Endbildschirm. Dieser zeigt die Spielfigur des Gewinners in Siegerpose neben einer Goldmedaille auf hellblauem Grund. Dazu kommen die Textausgaben "Congratulations" und "Player 1 Wins" bzw. Player 2 Wins". 
@@ -218,9 +226,7 @@ Dies ist das Ende des Spiels.
 Bei 30 gesammelten Münzen erscheint irgendwo ein großer, blinkender Coin in der Farbe des Charakters.
 
 
-<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC1.jpeg" alt="image" width="100">
 
-<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC2.jpeg" alt="image" width="100">
 
 Wenn dieser Coin vom Charakter eingesammelt wird, hat dieser Spieler gewonnen. Wird dieser Coin jedoch vom Gegner eingesammelt, so wird der Coincounter auf 20 zurückgesetzt, sodass auch der andere Spieler noch eine Chance hat, das Spiel zu gewinnen. 
 
