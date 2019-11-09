@@ -198,11 +198,21 @@ Stattdessen fliegen die Raumschiffe über die Coins herüber. Dadurch sind sie n
 
 ### Spielende<a name="12"></a>
 
-Sollte es einem Spieler gelingen, 30 Coins zu sammeln, so erscheint ein Coin in seiner Farbe auf dem Spielfeld. 
+Sollte es einem Spieler gelingen, 30 Coins zu sammeln, so erscheint ein Coin in seiner Farbe auf dem Spielfeld.  
 
-<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC1.jpeg" alt="image" width="100">
+<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC1.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC2.jpeg" alt="image" width="100">
 
-<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC2.jpeg" alt="image" width="100">
+Diese sind zusammen mit allen anderen Sprites zu Beginn eingeführt worden, allerdings waren sie die ganze Zeit unsichtbar.
+
+![WC1 Eigenschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC1%20Eigenschaften.PNG)
+
+Zu dem Zeitpunkt, an welchem der Spieler 30 Punkte sammelt, wird sein WinningCoin sichtbar und er kann ihn einsammeln. 
+
+![WC1 erscheint](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC1%20erscheint.PNG)
+
+Allerdings kann auch der Gegner den WinningCoin einsammeln. Gelingt es dem anderen Spieler, den WinningCoin seinem Gegner wegzuschnappen, verhindert er so den Sieg zu diesem Zeitpunkt. Denn dadurch wird der Coincounter des Spielers, der zuvor noch 30 Punkte hatte, auf 20 zurückgesetzt. Dadurch verschwindet auch der WinningCoin. Damit man sich nicht merken kann, wo der WinningCoin vorher war, wird dieser außerdem auf eine andere zufällige Position gesetzt. 
+
+![Hiding WC1](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Hiding%20WC1.PNG)
 
 ## Der Endbildschirm
 Sollte es einem Spieler gelingen, den eigenen WinningCoin einzusammeln, verschwindet das Spielfeld mit sämtlichen Spielfiguren, Münzen und Hindernissen und es erscheint der Endbildschirm. Dieser zeigt die Spielfigur des Gewinners in Siegerpose neben einer Goldmedaille auf hellblauem Grund. Dazu kommen die Textausgaben "Congratulations" und "Player 1 Wins" bzw. Player 2 Wins". 
