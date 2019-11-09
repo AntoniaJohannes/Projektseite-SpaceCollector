@@ -136,6 +136,9 @@ Die Hindernisse in SpaceCollector sollen das Spielerlebnis spannender gestalten,
 ![Sonne Code](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Sonne%20Eigenschaften.PNG)
 
 Die Sonne ist im Zentrum des Spielfelds. Die wechselnde Animation am Rand der Sonne soll sie ein wenig gefährlicher aussehen lassen, ebenso wie die Augen. 
+
+#### Kollision und Punktverlust
+
 Bei Kontakt mit der Sonne verlieren die Spieler 3 Punkte. Damit ist die Sonne das gefährlichste Hindernis im Spiel. Um permanenten Kontakt mit der Sonne und somit permanenten Punktverlust zu verhindern, prallen die Spieler bei Kontakt von der Sonne ab.
 Die Stärke des Abprallens haben wir von vornherein in den Eigenschaften der Sprites der Spielfiguren festgelegt. Dies kann dem obigen Code unter "bounciness" entnommen werden.
 
@@ -151,11 +154,23 @@ Nachdem wir die Sonne als Hindernis eingeführt hatten, fiel uns schnell ein sch
 
 ### Die Raumschiffe<a name="11"></a>
 
+In SpaceCollector gibt es zusätzlich zu der Sonne zwei weitere, sich bewegende Hindernisse in Gestalt von zwei identisch aussehenden Raumschiffen.
+
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2.jpeg" alt="image" width="100">
 
+Die Raumschiffe fliegen um die Sonne in Form eines Vierecks im Uhrzeigersinn um die Sonne herum. Dabei startet ein Raumschiff oben rechts, das andere unten links.
 
+![ME Eigenschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/ME%20Eigenschaften.PNG)
 
-Bei den Raumschiffen haben wir verschiedene Spriteanimationen genutzt, um die Flugrichtung realistisch darzustellen.
+Die Route der Raumschiffe wird durch if-Schleifen, die die Position der Raumschiffe überprüfen, und velocityX- bzw. velocityY- Befehle, die die Geschwindigkeit der Raumschiffe in eine Richtung steuern, definiert. Der Code sieht bei beiden Raumschiffen gleich aus, aufgrund der unterschiedlichen Startpunkte unterscheidet sich allerdings die Reihenfolge der einzelnen if-Schleifen.
+
+![ME1 Route](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/ME1%20Route.PNG)
+
+Code für das Raumschiff, das oben rechts startet. Die Bezeichnung für die Raumschiffe im Code sind "me1" und "me2" für "Moving Enemy 1/2".
+
+![ME2 Route](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/ME1%20Route.PNG)
+
+Code für das Raumschiff, das unten links startet.
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2R.jpeg" alt="image" width="100">
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2L.jpeg" alt="image" width="100">
