@@ -2,64 +2,64 @@
 
 ## Inhaltsverzeichnis
 
-[ Einleitung](#)
+[1. Einleitung](#1)
 
-[ Spielprinzip](#)
+[2. Spielprinzip](#2)
 
-[ Gesamtcode und Codeinhaltsverzeichnis](#)
+[3. Gesamtcode und Codeinhaltsverzeichnis](#3)
 
-[ Das Spielfeld](#)
+[4. Das Spielfeld](#4)
 
-[ Spielfiguren und Steuerung](#)
+[5. Spielfiguren und Steuerung](#5)
 
-[ Spielfiguren](#)
+[5.1 Spielfiguren](#5.1)
 
-[ Steuerung](#)
+[5.2 Steuerung](#5.2)
 
-[ Coins](#)
+[6. Coins](#6)
 
-[ Die verschiedenen Coins](#)
+[6.1 Die verschiedenen Coins](#6.1)
 
-[ Der Bronzene Coin](#)
+[6.1.1 Der Bronzene Coin](#6.1.1)
 
-[ Der Silberne Coin](#)
+[6.1.2 Der Silberne Coin](#6.1.2)
 
-[ Der Goldene Coin]()
+[6.1.3 Der Goldene Coin](#6.1.3)
 
-[ Der BadCoin](#)
+[6.1.4 Der BadCoin](#6.1.4)
 
-[ Das Sammeln der Coins](#)
+[6.2 Das Sammeln der Coins](#6.2)
 
-[ Hindernisse](#)
+[7. Hindernisse](#7)
 
-[ Die Sonne](#)
+[7.1 Die Sonne](#7.1)
 
-[ Kollision und Punktverlust](#)
+[7.1.1 Kollision und Punktverlust](#7.1.1)
 
-[ Das Münzenproblem](#)
+[7.1.2 Das Münzenproblem](#7.1.2)
 
-[ Die Raumschiffe](#)
+[7.2 Die Raumschiffe](#7.2)
 
-[ Die Flugroute](#)
+[7.2.1 Die Flugroute](#7.2.1)
 
-[ Kollision und Punktverlust](#)
+[7.2.2 Kollision und Punktverlust](#7.2.2)
 
-[ Spielende](#)
+[8. Spielende](#8.)
 
-[ Die WinningCoins](#)
+[8.1 Die WinningCoins](#8.1)
 
-[ Einsammeln des gegnerischen WinningCoins](#)
+[8.2 Einsammeln des gegnerischen WinningCoins](#8.2)
 
-[ Einsammeln des eigenen WinningCoins](#)
+[8.3 Einsammeln des eigenen WinningCoins](#8.3)
 
 
 
-## Einleitung<a name=""></a>
+## Einleitung<a name="1"></a>
 
 "SpaceCollector" ist ein Spiel, welches wir während des Informatikunterrichts im 12. Jahrgang entwickelt und programmiert haben. Hierbei haben wir die Plattform studio.code.org genutzt, welche die Codesprache in einfachen Bausteinen darstellt und so das Programmieren ohne Vorkenntnisse erheblich erleichtert. Dies war für uns das ausschlaggebene Argument, diese Plattform zu wählen, da wir beide im Informatikunterricht das erste Mal mit Programmiersprachen in Kontakt waren. Nachdem wir verschiedene Spielmodelle in Erwägung gezogen hatten, entschieden wir uns ein Spiel des Collectorgenres. Nach dem Progammieren eines simplen Spiels ohne weitere Funktionen war es ein leichtes, das Grundspiel zu entwickeln. Die anschließende Weiterentwicklung war der Hauptbestandteil der Informatikstunden.
 Im folgenden Text werden wir unser Spiel erklären und auf Herausforderungen und Schwierigkeiten während des Prozesses eingehen. Wenn Codezeilen für Spieler 1 und Spieler 2 aus Übersichtsgründen im Code zwar in getrennten Funktionen geschrieben wurden, sich aber außer in der Bezeichnung nicht unterscheiden, werden wir aus Platzgründen exemplarisch den Code für Spieler 1 verwenden. Es ist dann davon auszugehen, dass der Code von Spieler 2 diesem entspricht.
 
-## Spielprinzip<a name=""></a>
+## Spielprinzip<a name="2"></a>
 
 Bei "SpaceCollector" konkurrieren zwei Aliens im All um verschiedene Coins. Im Hintergrund funkeln Sterne, um das All darzustellen. Die Coins werden durch simples Berühren eingesammelt. Ziel des Spiels ist es, Coins im Wert von 30 Punkten einzusammeln, um so den finalen Coin erscheinen zu lassen.
 Zu Beginn des Spiels erscheint Spieler 1 in der oberen linken Ecke, Spieler 2 in der unteren rechten Ecke. Die Sonne ist als zentrales Hindernis im Zentrum, darum herum fliegen zwei Raumschiffe. Diese beginnen in der unteren linken Ecke bzw. in der oberen rechten Ecke des Spielfelds, also in den Ecken, wo die Spieler sich zu Anfang nicht befinden.
@@ -68,7 +68,7 @@ Zu Beginn des Spiels erscheint Spieler 1 in der oberen linken Ecke, Spieler 2 in
 
 Ausgangssituation beim Start des Spiels
 
-## Gesamtcode und Codeinhaltsverzeichnis<a name=""></a>
+## Gesamtcode und Codeinhaltsverzeichnis<a name="3"></a>
 
 Unser Code besteht aus einer Hauptfunktion, die das Spiel ausführt, und mehreren Unterfunktionen, die einzelne Bestandteile und Mechaniken des Spiels definieren. Um den Überblick zu wahren, sind alle mit einem charakteristischen Namen bezeichnet worden und in derselben Reihenfolge angeordnet, wie sie in der Hauptfunktion aufgelistet sind. In den obersten Codezeilen haben wir außerdem ein kleines Inhaltsverzeichnis eingefügt.
 
@@ -76,7 +76,7 @@ Unser Code besteht aus einer Hauptfunktion, die das Spiel ausführt, und mehrere
 
 ![Hauptfunktion](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Gesamter%20Code.PNG)
 
-## Das Spielfeld<a name=""></a>
+## Das Spielfeld<a name="4"></a>
 
 Das Spiel findet, wie der Name schon andeutet, im All statt. Der schwarze Hintergrund soll das All darstellen, während die gelben Punkte, die ständig die Position wechseln, funkelnde Sterne sein sollen. 
 
@@ -84,14 +84,14 @@ Das Spiel findet, wie der Name schon andeutet, im All statt. Der schwarze Hinter
 
 Um das Allthema aufrechtzuerhalten, werden die Spielfiguren durch verschiedenfarbige Aliens dargestellt und die Hindernisse durch eine Sonne und Raumschiffe verkörpert.
 
-## Spielfiguren und Steuerung<a name=""></a>
+## Spielfiguren und Steuerung<a name="">5</a>
 
-### Die Spielfiguren<a name=""></a>
+### Die Spielfiguren<a name="5.1"></a>
 Das Spiel wird von zwei Spielern gegeneinander gespielt. Spieler 1 steuert den grünen Alien, Spieler 2 den pinken Alien. Die Sprites für die Spielfiguren waren bei der Website bereits vorgefertigt und standen uns zur Verfügung.
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player1.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player2.jpeg" alt="image" width="100">
 
-### Steuerung<a name=""></a>
+### Steuerung<a name="5.2"></a>
 Spieler 1 steuert die Spielfigur mit den Tasten WASD, Spieler 2 mit den Pfeiltasten, wobei sich die Animation für links und rechts so verändert, als wenn die Spielfigur nach links bzw. rechts laufen würde.
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player1L.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player1R.jpeg" alt="image" width="100">
@@ -116,13 +116,13 @@ Wenn der Sprite z.B. das Spielfeld auf der linken Seite verlässt, erscheint er 
 Der Code zum Erscheinen auf der jeweils anderen Seite des Spielfelds bei Verlassen des Spielfelds auf einer beliebigen Seite.
 
 
-## Coins<a name=""></a>
+## Coins<a name="6"></a>
 
-### Die verschiedenen Coins<a name=""></a>
+### Die verschiedenen Coins<a name="6.1"></a>
 
 In "SpaceCollector" gibt es vier verschiedene Arten von Coins. Diese haben die Wertigkeiten +1, +2, +5 sowie -1. Die unterschiedlichen Wertigkeiten werden durch uterschiedliche Farben und Kennzeichnungen eindeutig gezeigt.
 
-#### Der Bronzene Coin<a name=""></a>
+#### Der Bronzene Coin<a name="6.1.1"></a>
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C1.jpeg" alt="image" width="100">
 
@@ -130,7 +130,7 @@ In "SpaceCollector" gibt es vier verschiedene Arten von Coins. Diese haben die W
 
 Der Bronzene Coin gibt +1 Punkt. Er erscheint zu Beginn des Spiels an einem zufälligen Punkt auf dem Spielfeld. 
 
-#### Der Silberne Coin<a name=""></a>
+#### Der Silberne Coin<a name="6.1.2"></a>
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C2.jpeg" alt="image" width="100">
 
@@ -138,7 +138,7 @@ Der Bronzene Coin gibt +1 Punkt. Er erscheint zu Beginn des Spiels an einem zuf�
 
 Der Silberne Coin gibt +2 Punkte. Er erscheint zu Beginn ebenfalls an einem zufälligen Punkt auf dem Spielfeld.
 
-#### Der Goldene Coin<a name=""></a>
+#### Der Goldene Coin<a name="6.1.3"></a>
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C5.jpeg" alt="image" width="100">
 
@@ -146,7 +146,7 @@ Der Silberne Coin gibt +2 Punkte. Er erscheint zu Beginn ebenfalls an einem zuf�
 
 Der Goldene Coin ist der beste Coin. Er gibt +5 Punkte. Auch dieser Coin erscheint zu Beginn an einem zufälligen Punkt innerhalb des Spielfelds.
 
-#### Der BadCoin<a name=""></a>
+#### Der BadCoin<a name="6.1.4"></a>
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/BadC.jpeg" alt="image" width="100">
 
@@ -154,7 +154,7 @@ Der Goldene Coin ist der beste Coin. Er gibt +5 Punkte. Auch dieser Coin erschei
 
 Entgegen seiner goldenen Farbe gibt dieser Coin keine Punkte. Im Gegenteil, dieser Coin gibt -1 Punkt und wird im Code deshalb als "badcoin" bezeichnet. Dieser Coin verhält sich wie alle anderen Coins auch und erscheint zu Beginn an einem zufälligen Ort. 
 
-### Das Sammeln der Coins<a name=""></a>
+### Das Sammeln der Coins<a name="6.2"></a>
 
 Die Coins werden durch Berühren mit dem Spielcharakter eingesammmelt und erscheinen an einem zufälligen Ort erneut auf dem Spielfeld. Gleichzeitig werden dem Coincounter des Spielers, der den Coin eingesammelt hat, der entsprechende Wert des Coins gutgeschrieben.
 Wie dem oben gezeigten Code zu entnehmen ist, sind die Collider aller Coins auf "circle" gesetzt. Dies dient zur exakteren Darstellung des Einsammelns der Coins, da sonst auch "Nah-Dran-Vorbeilaufen" als Einsammeln gilt.
@@ -171,10 +171,10 @@ Die Anzahl gesammelter Coins kann am oberen Rand des Spielfelds dem Coincounter 
 ![Coincounter Code](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Coincounter%20Anzeige%20Code.PNG)
 
 
-## Hindernisse<a name=""></a>
+## Hindernisse<a name="7"></a>
 Die Hindernisse in SpaceCollector sollen das Spielerlebnis spannender gestalten, indem sie die Spieler beim Sammeln der Coins behindern. In SpaceCollector gibt es drei Hindernisse: Eine Sonne in der Mitte des Spielfelds sowie zwei Raumschiffe.
 
-### Die Sonne<a name=""></a>
+### Die Sonne<a name="7.1"></a>
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H1.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Sonne%202.PNG" alt="image" width="100">
 
@@ -182,7 +182,7 @@ Die Hindernisse in SpaceCollector sollen das Spielerlebnis spannender gestalten,
 
 Die Sonne ist im Zentrum des Spielfelds. Die wechselnde Animation am Rand der Sonne soll sie ein wenig gefährlicher aussehen lassen, ebenso wie die wechselnde Augenfarbe. 
 
-#### Kollision und Punktverlust<a name=""></a>
+#### Kollision und Punktverlust<a name="7.1.1"></a>
 
 Bei Kontakt mit der Sonne verlieren die Spieler 3 Punkte. Damit ist die Sonne das gefährlichste Hindernis im Spiel. Um permanenten Kontakt mit der Sonne und somit permanenten Punktverlust zu verhindern, prallen die Spieler bei Kontakt von der Sonne ab.
 Die Stärke des Abprallens haben wir von vornherein in den Eigenschaften der Sprites der Spielfiguren festgelegt. Dies kann dem obigen Code unter "bounciness" entnommen werden.
@@ -191,19 +191,19 @@ Die Stärke des Abprallens haben wir von vornherein in den Eigenschaften der Spr
 
 Wie dem Code zu entnehmen ist, wird bei der Kollision geprüft, wie viele Punkte der Spieler hat. Sollten es mehr als 0 sein (bzw. weniger als 100, wir gehen davon aus, dass niemand je 100 Coins sammelt), so verliert er die besagten 3 Punkte. Sollte der Punktestand des Spielers so niedrig sein, dass er nach der Kollision auf 0 oder weniger Punkte abrutscht, wird er an seinen Anfangspunkt zurückgesetzt, im Beispiel von Spieler 1 an die Koordinaten 50/50, und der Punktestand wird auf 0 gestellt. Dies haben wir als kleine Strafe gedacht, um die Spieler bei niedrigem Punktestand zu besonders vorsichtigem Spielen zu bewegen.  
 
-#### Das Münzenproblem<a name=""></a>
+#### Das Münzenproblem<a name="7.1.2"></a>
 
 Nachdem wir die Sonne als Hindernis eingeführt hatten, fiel uns schnell ein schwerwiegendes Problem auf: Die Münzen konnten hinter der Sonne erscheinen und so für die Spieler unnereichbar sein. Um dies zu verhindern, haben wir eine weitere Funktion programmiert, die prüft, ob die Coins an ihrem Erscheinungsort die Sonne berühren. Sollte dies der Fall sein, erscheinen sie einfach an einem neuen Ort auf dem Spielfeld. Dabei werden selbstverständlich keinem Spieler Punkte angerechnet, obwohl die Coins ja die Position wechseln.
 
 ![Keine Coins hinter der Sonne Code](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Hidingcoins.PNG)
 
-### Die Raumschiffe<a name=""></a>
+### Die Raumschiffe<a name="7.2"></a>
 
 In SpaceCollector gibt es zusätzlich zu der Sonne zwei weitere, sich bewegende Hindernisse in Gestalt von zwei identisch aussehenden Raumschiffen.
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2.jpeg" alt="image" width="100">
 
-#### Die Flugroute<a name=""></a>
+#### Die Flugroute<a name="7.2.1"></a>
 
 Die Raumschiffe fliegen in Form eines Vierecks im Uhrzeigersinn um die Sonne herum. Dabei startet ein Raumschiff oben rechts, das andere unten links.
 
@@ -225,7 +225,7 @@ Um die Flugrichtungen realistischer darzustellen, benutzen wir vier verschiedene
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2L.jpeg" alt="image" width="100">
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2U.jpeg" alt="image" width="100">
 
-#### Kollision und Punktverlust<a name=""></a>
+#### Kollision und Punktverlust<a name="7.2.2"></a>
 
 Bei Kontakt mit den Raumschiffen werden den Spielern 2 Punkte abgezogen. Auch hier prallen die Spieler beim Kontakt ab, um einen massiven Punktverlust zu unterbinden. Allerdings stellen die Raumschiffe insofern ein gefährliches Hindernis dar, als dass sie die Spieler auf ihrer Flugroute vor sich her schieben können. Dies ist durchaus beabsichtigt.
 
@@ -239,9 +239,9 @@ Stattdessen fliegen die Raumschiffe über die Coins herüber. Dadurch sind sie n
 ![Coins vor Hindernissen](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Coins%20vor%20Obstacles.PNG)
 
 
-## Spielende<a name=""></a>
+## Spielende<a name="8"></a>
 
-### Die WinningCoins erscheinen<a name=""></a>
+### Die WinningCoins erscheinen<a name="8.1"></a>
 Sollte es einem Spieler gelingen, 30 Coins zu sammeln, so erscheint ein Coin in seiner Farbe auf dem Spielfeld.  
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC1.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC2.jpeg" alt="image" width="100">
@@ -254,13 +254,13 @@ Zu dem Zeitpunkt, an welchem der Spieler 30 Punkte sammelt, wird sein WinningCoi
 
 ![WC1 erscheint](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC1%20erscheint.PNG)
 
-### Einsammeln des gegnerischen WinningCoins<a name=""></a>
+### Einsammeln des gegnerischen WinningCoins<a name="8.2"></a>
 
 Allerdings kann auch der Gegner den WinningCoin einsammeln. Gelingt es dem anderen Spieler, den WinningCoin seinem Gegner wegzuschnappen, verhindert er so den Sieg zu diesem Zeitpunkt. Denn dadurch wird der Coincounter des Spielers, der zuvor noch 30 Punkte hatte, auf 20 zurückgesetzt. Dadurch verschwindet auch der WinningCoin, wie in dem obigen Code vorgesehen. Damit man sich nicht merken kann, wo der WinningCoin vorher war, wird dieser außerdem auf eine andere zufällige Position gesetzt. 
 
 ![Hiding WC1](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Hiding%20WC1.PNG)
 
-### Einsammeln des eigenen WinningCoins<a name=""></a>
+### Einsammeln des eigenen WinningCoins<a name="8.3"></a>
 
 Schafft es ein Spieler, den eigenen WinningCoin einzusammeln, so endet damit das Spiel und es erscheint der sogenannte WinningScreen.
 
