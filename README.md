@@ -6,6 +6,8 @@
 
 [ Spielprinzip](#)
 
+[ Gesamtcode und Codeinhaltsverzeichnis](#)
+
 [ Spielfiguren und Steuerung](#)
 
 [ Spielfiguren](#)
@@ -16,13 +18,29 @@
 
 [ Die verschiedenen Coins](#)
 
+[ Der Bronzene Coin](#)
+
+[ Der Silberne Coin](#)
+
+[ Der Goldene Coin]()
+
+[ Der BadCoin](#)
+
 [ Das Sammeln der Coins](#)
 
 [ Hindernisse](#)
 
 [ Die Sonne](#)
 
+[ Kollision und Punktverlust](#)
+
+[ Das Münzenproblem](#)
+
 [ Die Raumschiffe](#)
+
+[ Die Flugroute](#)
+
+[ Kollision und Punktverlust](#)
 
 [ Spielende](#)
 
@@ -35,10 +53,12 @@
 
 
 ## Einleitung<a name=""></a>
+
 SpaceCollector ist ein Spiel, welches wir während des Informatikunterrichts im 12. Jahrgang entwickelt und programmiert haben. Hierbei haben wir die Plattform studio.code.org genutzt, welche die Codesprache in einfachen Bausteinen darstellt und so das Programmieren ohne Vorkenntnisse erheblich erleichtert. Dies war für uns das ausschlaggebene Argument, diese Plattform zu wählen, da wir beide im Informatikunterricht das erste Mal mit Programmiersprachen in Kontakt waren. Nachdem wir verschiedene Spielmodelle in Erwägung gezogen hatten, entschieden wir uns ein Spiel des Collectorgenres. Nach dem Progammieren eines simplen Spiels ohne weitere Funktionen war es ein leichtes, das Grundspiel zu entwickeln. Die anschließende Weiterentwicklung war der Hauptbestandteil der Informatikstunden.
 Im folgenden Text werden wir unser Spiel erklären und auf Herausforderungen und Schwierigkeiten während des Prozesses eingehen. Wenn Codezeilen für Spieler 1 und Spieler 2 aus Übersichtsgründen im Code zwar in getrennten Funktionen geschrieben wurden, sich aber außer in der Bezeichnung nicht unterscheiden, werden wir aus Platzgründen exemplarisch den Code für Spieler 1 verwenden. Es ist dann davon auszugehen, dass der Code von Spieler 2 diesem entspricht.
 
 ## Spielprinzip<a name=""></a>
+
 Bei SpaceCollector konkurrieren zwei Aliens im All um verschiedene Coins. Im Hintergrund funkeln Sterne, um das All darzustellen. Die Coins werden durch simples Berühren eingesammelt. Ziel des Spiels ist es, Coins im Wert von 30 Punkten einzusammeln, um so den finalen Coin erscheinen zu lassen.
 Zu Beginn des Spiels erscheint Spieler 1 in der oberen linken Ecke, Spieler 2 in der unteren rechten Ecke. Die Sonne ist als zentrales Hindernis im Zentrum, darum herum fliegen zwei Raumschiffe. Diese beginnen in der unteren linken Ecke bzw. in der oberen rechten Ecke des Spielfelds, also in den Ecken, wo die Spieler sich zu Anfang nicht befinden.
 
@@ -46,7 +66,7 @@ Zu Beginn des Spiels erscheint Spieler 1 in der oberen linken Ecke, Spieler 2 in
 
 Ausgangssituation beim Start des Spiels
 
-## Gesamtcode und Code Inhaltsverzeichnis
+## Gesamtcode und Codeinhaltsverzeichnis<a name=""></a>
 
 Unser Code besteht aus einer Hauptfunktion, die das Spiel ausführt, und mehreren Unterfunktionen, die einzelne Bestandteile und Mechaniken des Spiels definieren. Um den Überblick zu wahren, sind alle mit einem charakteristischen Namen bezeichnet worden und in derselben Reihenfolge angeordnet, wie sie in der Hauptfunktion aufgelistet sind. In den obersten Codezeilen haben wir außerdem ein kleines Inhaltsverzeichnis eingefügt.
 
@@ -92,7 +112,7 @@ Der Code zum Erscheinen auf der jeweils anderen Seite des Spielfelds bei Verlass
 
 In "SpaceCollector" gibt es vier verschiedene Arten von Coins. Diese haben die Wertigkeiten 1, 2, 5 sowie -1. Die unterschiedlichen Wertigkeiten werden durch uterschiedliche Farben und Kennzeichnungen eindeutig gezeigt.
 
-#### Der Bronzene Coin
+#### Der Bronzene Coin<a name=""></a>
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C1.jpeg" alt="image" width="100">
 
@@ -100,7 +120,7 @@ In "SpaceCollector" gibt es vier verschiedene Arten von Coins. Diese haben die W
 
 Der Bronzene Coin gibt +1 Punkte. Er erscheint zu Beginn des Spiels an einem zufälligen Punkt auf dem Spielfeld. 
 
-#### Der Silberne Coin
+#### Der Silberne Coin<a name=""></a>
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C2.jpeg" alt="image" width="100">
 
@@ -108,7 +128,7 @@ Der Bronzene Coin gibt +1 Punkte. Er erscheint zu Beginn des Spiels an einem zuf
 
 Der Silberne Coin gibt +2 Punkte. Er erscheint zu Beginn ebenfalls an einem zufälligen Punkt auf dem Spielfeld.
 
-#### Der Goldene Coin
+#### Der Goldene Coin<a name=""></a>
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/C5.jpeg" alt="image" width="100">
 
@@ -116,7 +136,7 @@ Der Silberne Coin gibt +2 Punkte. Er erscheint zu Beginn ebenfalls an einem zuf�
 
 Der Goldene Coin ist der beste Coin. Er gibt +5 Punkte. Auch dieser Coin erscheint zu Beginn an einem zufälligen Punkt innerhalb des Spielfelds.
 
-#### Der Coin mit dem rotem Kreis
+#### Der BadCoin<a name=""></a>
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/BadC.jpeg" alt="image" width="100">
 
@@ -153,7 +173,7 @@ Die Hindernisse in SpaceCollector sollen das Spielerlebnis spannender gestalten,
 
 Die Sonne ist im Zentrum des Spielfelds. Die wechselnde Animation am Rand der Sonne soll sie ein wenig gefährlicher aussehen lassen, ebenso wie die Augen. 
 
-#### Kollision und Punktverlust
+#### Kollision und Punktverlust<a name=""></a>
 
 Bei Kontakt mit der Sonne verlieren die Spieler 3 Punkte. Damit ist die Sonne das gefährlichste Hindernis im Spiel. Um permanenten Kontakt mit der Sonne und somit permanenten Punktverlust zu verhindern, prallen die Spieler bei Kontakt von der Sonne ab.
 Die Stärke des Abprallens haben wir von vornherein in den Eigenschaften der Sprites der Spielfiguren festgelegt. Dies kann dem obigen Code unter "bounciness" entnommen werden.
@@ -162,7 +182,7 @@ Die Stärke des Abprallens haben wir von vornherein in den Eigenschaften der Spr
 
 Wie dem Code zu entnehmen ist, wird bei der Kollision geprüft, wie viele Punkte der Spieler hat. Sollten es mehr als 0 sein (bzw. weniger als 100, wir gehen davon aus, dass niemand je 100 Coins sammelt), so verliert er die besagten 3 Punkte. Sollten der Punktestand des Spielers so niedrig sein, dass er nach der Kollision auf 0 oder weniger Punkte abrutscht, wird er an seinen Anfangspunkt zurückgesetzt, im Beispiel von Spieler 1 an die Koordinaten 50/50. Dies haben wir als kleine Strafe gedacht, um die Spieler bei niedrigem Punktestand zu besonders vorsichtigem Spielen zu bewegen.  
 
-#### Das Münzenproblem
+#### Das Münzenproblem<a name=""></a>
 
 Nachdem wir die Sonne als Hindernis eingeführt hatten, fiel uns schnell ein schwerwiegendes Problem auf: Die Münzen konnten hinter der Sonne erscheinen und so für die Spieler unnereichbar sein. Um dies zu verhindern, haben wir eine weitere Funktion programmiert, die prüft, ob die Coins an ihrem Erscheinungsort die Sonne berühren. Sollte dies der Fall sein, erscheinen sie einfach an einem neuen Ort auf dem Spielfeld. Dabei werden selbstverständlich keinem Spieler Punkte angerechnet, obwohl die Coins ja die Position wechseln.
 
@@ -174,7 +194,7 @@ In SpaceCollector gibt es zusätzlich zu der Sonne zwei weitere, sich bewegende 
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2.jpeg" alt="image" width="100">
 
-#### Die Flugroute
+#### Die Flugroute<a name=""></a>
 
 Die Raumschiffe fliegen um die Sonne in Form eines Vierecks im Uhrzeigersinn um die Sonne herum. Dabei startet ein Raumschiff oben rechts, das andere unten links.
 
@@ -196,7 +216,7 @@ Um die Flugrichtungen relaistischer darzustellen, benutzen wir vier verschiedene
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2L.jpeg" alt="image" width="100">
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2U.jpeg" alt="image" width="100">
 
-#### Die Kollision
+#### Kollision und Punktverlust<a name=""></a>
 
 Bei Kontakt mit den Raumschiffen werden den Spielern 2 Punkte abgezogen. Auch hier prallen die Spieler beim Kontakt ab, um den massiven Punktverlust zu unterbinden. Allerdings stellen die Raumschiffe insofern ein gefährliches Hindernis dar, als dass sie die Spieler auf ihrer Flugroute vor sich her schieben können. Dies ist durchaus beabsichtigt.
 
@@ -249,4 +269,4 @@ Gleichzeitig erscheint die Medaille und der WinnerIcon des Gewinners. Dies ist e
 
 ![WinningIcons](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Winning%20Icon%20Code.PNG)
 
-
+Dies ist das Ende des Spiels. Nun kann es von neuem gestartet werden.
