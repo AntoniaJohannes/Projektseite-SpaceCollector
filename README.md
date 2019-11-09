@@ -226,14 +226,14 @@ Um die Flugrichtungen realistischer darzustellen, benutzen wir vier verschiedene
 
 #### Kollision und Punktverlust<a name="7.2.2"></a>
 
-Bei Kontakt mit den Raumschiffen werden den Spielern 2 Punkte abgezogen. Auch hier prallen die Spieler beim Kontakt ab, um einen massiven Punktverlust zu unterbinden. Allerdings stellen die Raumschiffe insofern ein gefährliches Hindernis dar, als dass sie die Spieler auf ihrer Flugroute vor sich her schieben können. Dies ist durchaus beabsichtigt.
+Bei Kontakt mit den [Raumschiffen](#7.2) werden den [Spielern](#5.1) 2 Punkte abgezogen. Auch hier prallen die [Spieler](#5.1) beim Kontakt ab, um einen massiven Punktverlust zu unterbinden. Allerdings stellen die [Raumschiffe](#7.2) insofern ein gefährliches [Hindernis](#7) dar, als dass sie die [Spieler](#5.1) auf ihrer [Flugroute](#7.2.1) vor sich her schieben können. Dies ist durchaus beabsichtigt.
 
 ![Kollision mit Raumschiff](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Kollision%20Raumschiff.PNG)![Kollision mit Raumschiff 2](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Kollision%20Raumschiff%202.PNG)
 
-Wie bei der Sonne wird auch bei den Raumschiffkollisionen geprüft, ob die Spieler mit der Kollsion auf 0 Punkte oder weniger fallen. Sollte dies der Fall sein, wird auch hier der Spieler wieder auf seinen Anfangspunkt zurückgesetzt.
+Wie bei der [Sonne](#7.1) wird auch bei den Raumschiffkollisionen geprüft, ob [die Spieler](#5.1) mit der Kollsion auf 0 Punkte oder weniger fallen. Sollte dies der Fall sein, wird auch hier der [Spieler](#5.1) wieder auf seinen Anfangspunkt zurückgesetzt.
 
-Das Münzenproblem tritt bei den Raumschiffen nicht auf, da sie sich bewegen. Würden wir eine ähnliche Schleife wie bei der Sonne einführen, würden die Coins ständig ihre Position wechseln, ohne dass die Spieler sie einsammeln. Dies würde das Spiel stark beeinflussen.
-Stattdessen fliegen die Raumschiffe über die Coins herüber. Dadurch sind sie nur kurzzeitig blockiert, können aber weiterhin problemlos eingesammelt werden, nachdem das Raumschiff weitergeflogen ist. Dass die Raumschiffe über die Coins herüber und nicht unter durch fliegen, liegt an der Reihenfolge, in der wir die Sprites eingeführt haben. Im Code ganz oben haben wir die verschiedenen Sprites alle eingeführt und dabei die Coins zuerst genannt. Bei dieser Codesprache überdeckt immer der zuletzt genannte Sprite sämtliche vorher genannten. Somit mussten wir nur die Raumschiffe nach den Coins einführen, um diese Darstellung realisieren zu können. Dies ist unserem Code Inhaltsverzeichnis vom Anfang zu entnehmen.
+Das [Münzenproblem](#7.1.1) tritt bei den [Raumschiffen](#7.2) nicht auf, da sie sich bewegen. Würden wir eine ähnliche Schleife wie bei der [Sonne](#7.1) einführen, würden die [Coins](#6) ständig ihre Position wechseln, ohne dass die [Spieler](#5.1) sie [einsammeln](#6.2). Dies würde das Spiel stark beeinflussen.
+Stattdessen fliegen die [Raumschiffe](#7.2) über die [Coins](#6) herüber. Dadurch sind sie nur kurzzeitig blockiert, können aber weiterhin problemlos eingesammelt werden, nachdem das [Raumschiff](#7.2) weitergeflogen ist. Dass die [Raumschiffe](#7.2) über die [Coins](#6) herüber und nicht unter durch fliegen, liegt an der Reihenfolge, in der wir die Sprites eingeführt haben. Im Code ganz oben haben wir die verschiedenen Sprites alle eingeführt und dabei die [Coins](#6) zuerst genannt. Bei dieser Codesprache überdeckt immer der zuletzt genannte Sprite sämtliche vorher genannten. Somit mussten wir nur die [Raumschiffe](#7.2) nach den [Coins](#6) einführen, um diese Darstellung realisieren zu können. Dies ist unserem [Codeinhaltsverzeichnis](#Inhaltsverzeichnis) vom Anfang zu entnehmen.
 
 ![Coins vor Hindernissen](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Coins%20vor%20Obstacles.PNG)
 
@@ -241,7 +241,8 @@ Stattdessen fliegen die Raumschiffe über die Coins herüber. Dadurch sind sie n
 ## Spielende<a name="8"></a>
 
 ### Die WinningCoins erscheinen<a name="8.1"></a>
-Sollte es einem Spieler gelingen, 30 Coins zu sammeln, so erscheint ein Coin in seiner Farbe auf dem Spielfeld.  
+
+Sollte es einem [Spieler](#5.1) gelingen, 30 Punkte zu sammeln, so erscheint ein Coin in seiner Farbe, der sogenannte [WinningCoin](#8.1) auf dem [Spielfeld](#4).  
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC1.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC2.jpeg" alt="image" width="100">
 
@@ -249,31 +250,31 @@ Diese sind zusammen mit allen anderen Sprites zu Beginn eingeführt worden, alle
 
 ![WC1 Eigenschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC1%20Eigenschaften.PNG)
 
-Zu dem Zeitpunkt, an welchem der Spieler 30 Punkte sammelt, wird sein WinningCoin sichtbar und er kann ihn einsammeln. 
+Zu dem Zeitpunkt, an welchem ein [Spieler](#5.1) 30 Punkte sammelt, wird sein [WinningCoin](#8.1) sichtbar und er kann ihn einsammeln. 
 
-![WC1 erscheint](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC1%20erscheint.PNG)
+![WC1 erscheint](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC1%20erscheint.PNG)<a name="0.2"></a>
 
 ### Einsammeln des gegnerischen WinningCoins<a name="8.2"></a>
 
-Allerdings kann auch der Gegner den WinningCoin einsammeln. Gelingt es dem anderen Spieler, den WinningCoin seinem Gegner wegzuschnappen, verhindert er so den Sieg zu diesem Zeitpunkt. Denn dadurch wird der Coincounter des Spielers, der zuvor noch 30 Punkte hatte, auf 20 zurückgesetzt. Dadurch verschwindet auch der WinningCoin, wie in dem obigen Code vorgesehen. Damit man sich nicht merken kann, wo der WinningCoin vorher war, wird dieser außerdem auf eine andere zufällige Position gesetzt. 
+Allerdings kann auch der Gegner den [WinningCoin](#8.1) einsammeln. Gelingt es dem anderen [Spieler](#5.1), den WinningCoin seinem Gegner wegzuschnappen, verhindert er so den [Sieg](#8.3) zu diesem Zeitpunkt. Denn dadurch wird der Coincounter des [Spielers](#5.1), der zuvor noch 30 Punkte hatte, auf 20 zurückgesetzt. Dadurch verschwindet auch der [WinningCoin](#8.1), wie in dem [obigen Code](0.2) vorgesehen. Damit man sich nicht merken kann, wo der [WinningCoin](#8.1) vorher war, wird dieser außerdem auf eine andere zufällige Position gesetzt. 
 
 ![Hiding WC1](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Hiding%20WC1.PNG)
 
 ### Einsammeln des eigenen WinningCoins<a name="8.3"></a>
 
-Schafft es ein Spieler, den eigenen WinningCoin einzusammeln, so endet damit das Spiel und es erscheint der sogenannte WinningScreen.
+Schafft es ein [Spieler](#5.1), den eigenen [WinningCoin](#8.1) einzusammeln, so endet damit das Spiel und es erscheint der sogenannte WinningScreen.
 
 <img src="https://github.com/AntoniaJohannes/Stundenprotokoll/blob/master/Bildschirmfoto%20Player%201%20wins%20.jpeg" alt="image" width="200">  <img src="https://github.com/AntoniaJohannes/Stundenprotokoll/blob/master/Bildschirmfoto%20Player%202%20wins.jpeg" alt="image" width="200"> 
 
-Dazu wird bei Einsammeln des eigenen WinningCoins ein neuer Hintergrund in hellblauer Farbe eingefügt. Zudem verschwinden alle Spieler, Coins, Hindernisse und alles andere, was sich noch vorher auf dem Feld befand.
+Dazu wird bei Einsammeln des eigenen [WinningCoins](#8.1) ein neuer Hintergrund in hellblauer Farbe eingefügt. Zudem verschwinden alle [Spieler](#5.1), [Coins](#6), [Hindernisse](#7) und alles andere, was sich noch vorher auf dem [Spielfeld](#4) befand.
 
 ![Alles verschwindet](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Endbildschirm%20Code.PNG)
 
-Desweiteren wird die Steuerung beider Spieler außer Kraft gesetzt, da der WinningScreen nur so lange erscheint, wie der Gewinner seinen WinningCoin berührt. Um das Verschwinden des WinningScreens zu verhindern, haben wir deshalb die Steuerung ausgeschaltet.
+Desweiteren wird die [Steuerung](#5.2) beider [Spieler](#5.1) außer Kraft gesetzt, da der WinningScreen nur so lange erscheint, wie der Gewinner seinen [WinningCoin](#8.1) berührt. Um das Verschwinden des WinningScreens zu verhindern, haben wir deshalb die [Steuerung](#5.2) ausgeschaltet.
 
 ![No Keys](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/No%20Keys.PNG)
 
-Gleichzeitig erscheint die Medaille und der WinnerIcon des Gewinners. Dies ist ein weiterer Sprite der Spielfigur. Hinzu kommen die Textausgaben "Congratulations!" und "Player 1/2 Wins". 
+Gleichzeitig erscheint die Medaille und der WinnerIcon des Gewinners. Dies ist ein weiterer Sprite der [Spielfigur](#5.1). Hinzu kommen die Textausgaben "Congratulations!" und "Player 1/2 Wins". 
 
 ![WinningIcons](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Winning%20Icon%20Code.PNG)
 
