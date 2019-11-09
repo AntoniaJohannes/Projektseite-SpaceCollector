@@ -46,6 +46,14 @@ Zu Beginn des Spiels erscheint Spieler 1 in der oberen linken Ecke, Spieler 2 in
 
 Ausgangssituation beim Start des Spiels
 
+## Gesamtcode und Code Inhaltsverzeichnis
+
+Unser Code besteht aus einer Hauptfunktion, die das Spiel ausführt, und mehreren Unterfunktionen, die einzelne Bestandteile und Mechaniken des Spiels definieren. Um den Überblick zu wahren, sind alle mit einem charakteristischen Namen bezeichnet worden und in derselben Reihenfolge angeordnet, wie sie in der Hauptfunktion aufgelistet sind. In den obersten Codezeilen haben wir außerdem ein kleines Inhaltsverzeichnis eingefügt.
+
+![Inhaltsverzeichnis](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Code%20Inhaltsverzeichnis.PNG)
+
+![Hauptfunktion](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Gesamter%20Code.PNG)
+
 ## Spielfiguren und Steuerung<a name=""></a>
 
 ### Die Spielfiguren<a name=""></a>
