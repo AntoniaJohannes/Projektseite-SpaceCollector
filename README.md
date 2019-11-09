@@ -56,12 +56,12 @@
 
 ## Einleitung<a name=""></a>
 
-SpaceCollector ist ein Spiel, welches wir während des Informatikunterrichts im 12. Jahrgang entwickelt und programmiert haben. Hierbei haben wir die Plattform studio.code.org genutzt, welche die Codesprache in einfachen Bausteinen darstellt und so das Programmieren ohne Vorkenntnisse erheblich erleichtert. Dies war für uns das ausschlaggebene Argument, diese Plattform zu wählen, da wir beide im Informatikunterricht das erste Mal mit Programmiersprachen in Kontakt waren. Nachdem wir verschiedene Spielmodelle in Erwägung gezogen hatten, entschieden wir uns ein Spiel des Collectorgenres. Nach dem Progammieren eines simplen Spiels ohne weitere Funktionen war es ein leichtes, das Grundspiel zu entwickeln. Die anschließende Weiterentwicklung war der Hauptbestandteil der Informatikstunden.
+"SpaceCollector" ist ein Spiel, welches wir während des Informatikunterrichts im 12. Jahrgang entwickelt und programmiert haben. Hierbei haben wir die Plattform studio.code.org genutzt, welche die Codesprache in einfachen Bausteinen darstellt und so das Programmieren ohne Vorkenntnisse erheblich erleichtert. Dies war für uns das ausschlaggebene Argument, diese Plattform zu wählen, da wir beide im Informatikunterricht das erste Mal mit Programmiersprachen in Kontakt waren. Nachdem wir verschiedene Spielmodelle in Erwägung gezogen hatten, entschieden wir uns ein Spiel des Collectorgenres. Nach dem Progammieren eines simplen Spiels ohne weitere Funktionen war es ein leichtes, das Grundspiel zu entwickeln. Die anschließende Weiterentwicklung war der Hauptbestandteil der Informatikstunden.
 Im folgenden Text werden wir unser Spiel erklären und auf Herausforderungen und Schwierigkeiten während des Prozesses eingehen. Wenn Codezeilen für Spieler 1 und Spieler 2 aus Übersichtsgründen im Code zwar in getrennten Funktionen geschrieben wurden, sich aber außer in der Bezeichnung nicht unterscheiden, werden wir aus Platzgründen exemplarisch den Code für Spieler 1 verwenden. Es ist dann davon auszugehen, dass der Code von Spieler 2 diesem entspricht.
 
 ## Spielprinzip<a name=""></a>
 
-Bei SpaceCollector konkurrieren zwei Aliens im All um verschiedene Coins. Im Hintergrund funkeln Sterne, um das All darzustellen. Die Coins werden durch simples Berühren eingesammelt. Ziel des Spiels ist es, Coins im Wert von 30 Punkten einzusammeln, um so den finalen Coin erscheinen zu lassen.
+Bei "SpaceCollector" konkurrieren zwei Aliens im All um verschiedene Coins. Im Hintergrund funkeln Sterne, um das All darzustellen. Die Coins werden durch simples Berühren eingesammelt. Ziel des Spiels ist es, Coins im Wert von 30 Punkten einzusammeln, um so den finalen Coin erscheinen zu lassen.
 Zu Beginn des Spiels erscheint Spieler 1 in der oberen linken Ecke, Spieler 2 in der unteren rechten Ecke. Die Sonne ist als zentrales Hindernis im Zentrum, darum herum fliegen zwei Raumschiffe. Diese beginnen in der unteren linken Ecke bzw. in der oberen rechten Ecke des Spielfelds, also in den Ecken, wo die Spieler sich zu Anfang nicht befinden.
 
 ![Ausgangssituation](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Spawn.PNG)
@@ -106,10 +106,10 @@ Sprites für links bzw. rechts bei Spieler 2.
 
 ![Keys1](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Keys%201.PNG)
 
-Code für die Steuerung bei Spieler 1. Die Sprites für links und rechts werden zusammen mit der Geschwindigkeit gewechselt. Durch Gedrückthalten der Tasten wird man in die entsprechende Richtung immer schneller, die Spielfigur bescheleunigt. Dies wird durch das Verlassen des Spielfelds nicht beeinträchtigt. Es gibt keine Maximalgeschwindigkeit. Man hört augenblicklich auf, sich in eine Richtung zu bewegen, wenn man den Knopf loslässt. Es ist durch gleichzeitiges Drücken von zwei Tasten möglich, sich schräg über das Spielfeld zu bewegen. Die if-Schleife zur Zurücksetzung des Sprites und der Geschwindigkeit war nötig, da sonst die Sprites nicht mit der Bewegungsrichtung übereingestimmt hätten.
+Code für die Steuerung bei Spieler 1. Die Sprites für links und rechts werden zusammen mit der Geschwindigkeit geändert. Durch Gedrückthalten der Tasten wird man in die entsprechende Richtung immer schneller, die Spielfigur beschleunigt. Dies wird durch das Verlassen des Spielfelds nicht beeinträchtigt. Es gibt keine Maximalgeschwindigkeit. Man hört augenblicklich auf, sich in eine Richtung zu bewegen, wenn man den Knopf loslässt. Es ist durch gleichzeitiges Drücken von zwei Tasten möglich, die Spielfigur schräg über das Spielfeld zu bewegen. Die if-Schleifen zur Zurücksetzung des Sprites und der Geschwindigkeit war nötig, da sonst die Darstellung der Spielfiguren nicht mit der Bewegungsrichtung übereingestimmt hätten.
 
 
-Es ist möglich, am linken Spielfeldrand das Spielfeld zu verlassen und auf der rechten Seite zu erscheinen. Dasselbe gilt für die andere Richtung sowie den oberen und unteren Rand. Dieses Prinzip haben wir von dem Handyspiel "Doodle Jump" übernommen. Wir entschieden uns dafür, da sonst die Spielfiguren, einmal außerhalb des Spielfelds, nicht mehr sichtbar sind und nur schwer wieder in den sichtbaren Bereich zu navigieren sind. 
+Wenn der Sprite z.B. das Spielfeld auf der linken Seite verlässt, erscheint er auf derselben Höhe auf der rechten Seite. Dasselbe gilt für die andere Richtung sowie den oberen und unteren Rand. Dieses Prinzip haben wir von dem bekannten Handyspiel "Doodle Jump" übernommen. Wir entschieden uns dafür, da sonst die Spielfiguren, einmal außerhalb des Spielfelds, nicht mehr sichtbar sind und nur schwer wieder in den sichtbaren Bereich zu navigieren sind. 
 
 ![Edges](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Edge.PNG)
 
@@ -171,7 +171,6 @@ Die Anzahl gesammelter Coins kann am oberen Rand des Spielfelds dem Coincounter 
 ![Coincounter Code](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Coincounter%20Anzeige%20Code.PNG)
 
 
-
 ## Hindernisse<a name=""></a>
 Die Hindernisse in SpaceCollector sollen das Spielerlebnis spannender gestalten, indem sie die Spieler beim Sammeln der Coins behindern. In SpaceCollector gibt es drei Hindernisse: Eine Sonne in der Mitte des Spielfelds sowie zwei Raumschiffe.
 
@@ -181,7 +180,7 @@ Die Hindernisse in SpaceCollector sollen das Spielerlebnis spannender gestalten,
 
 ![Sonne Code](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Sonne%20Eigenschaften.PNG)
 
-Die Sonne ist im Zentrum des Spielfelds. Die wechselnde Animation am Rand der Sonne soll sie ein wenig gefährlicher aussehen lassen, ebenso wie die Augen. 
+Die Sonne ist im Zentrum des Spielfelds. Die wechselnde Animation am Rand der Sonne soll sie ein wenig gefährlicher aussehen lassen, ebenso wie die wechselnde Augenfarbe. 
 
 #### Kollision und Punktverlust<a name=""></a>
 
@@ -190,7 +189,7 @@ Die Stärke des Abprallens haben wir von vornherein in den Eigenschaften der Spr
 
 ![Kollision Sonne](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Sonne%20Kollision.PNG)
 
-Wie dem Code zu entnehmen ist, wird bei der Kollision geprüft, wie viele Punkte der Spieler hat. Sollten es mehr als 0 sein (bzw. weniger als 100, wir gehen davon aus, dass niemand je 100 Coins sammelt), so verliert er die besagten 3 Punkte. Sollten der Punktestand des Spielers so niedrig sein, dass er nach der Kollision auf 0 oder weniger Punkte abrutscht, wird er an seinen Anfangspunkt zurückgesetzt, im Beispiel von Spieler 1 an die Koordinaten 50/50. Dies haben wir als kleine Strafe gedacht, um die Spieler bei niedrigem Punktestand zu besonders vorsichtigem Spielen zu bewegen.  
+Wie dem Code zu entnehmen ist, wird bei der Kollision geprüft, wie viele Punkte der Spieler hat. Sollten es mehr als 0 sein (bzw. weniger als 100, wir gehen davon aus, dass niemand je 100 Coins sammelt), so verliert er die besagten 3 Punkte. Sollte der Punktestand des Spielers so niedrig sein, dass er nach der Kollision auf 0 oder weniger Punkte abrutscht, wird er an seinen Anfangspunkt zurückgesetzt, im Beispiel von Spieler 1 an die Koordinaten 50/50, und der Punktestand wird auf 0 gestellt. Dies haben wir als kleine Strafe gedacht, um die Spieler bei niedrigem Punktestand zu besonders vorsichtigem Spielen zu bewegen.  
 
 #### Das Münzenproblem<a name=""></a>
 
@@ -206,7 +205,7 @@ In SpaceCollector gibt es zusätzlich zu der Sonne zwei weitere, sich bewegende 
 
 #### Die Flugroute<a name=""></a>
 
-Die Raumschiffe fliegen um die Sonne in Form eines Vierecks im Uhrzeigersinn um die Sonne herum. Dabei startet ein Raumschiff oben rechts, das andere unten links.
+Die Raumschiffe fliegen in Form eines Vierecks im Uhrzeigersinn um die Sonne herum. Dabei startet ein Raumschiff oben rechts, das andere unten links.
 
 ![ME Eigenschaften](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/ME%20Eigenschaften.PNG)
 
@@ -214,13 +213,13 @@ Die Route der Raumschiffe wird durch if-Schleifen, die die Position der Raumschi
 
 ![ME1 Route](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/ME1%20Route.PNG)
 
-Code für das Raumschiff, das oben rechts startet. Die Bezeichnung für die Raumschiffe im Code sind "me1" und "me2" für "Moving Enemy 1/2".
+Code für das Raumschiff, das unten links startet. Die Bezeichnung für die Raumschiffe im Code sind "me1" und "me2" für "Moving Enemy 1/2".
 
 ![ME2 Route](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/ME2%20Route.PNG)
 
-Code für das Raumschiff, das unten links startet.
+Code für das Raumschiff, das oben rechts startet.
 
-Um die Flugrichtungen relaistischer darzustellen, benutzen wir vier verschiedene Sprites für die Raumschiffe. Je nach Richtungswechsel wird der Sprite gleichzeitig mit der Geschwindigkeit geändert.
+Um die Flugrichtungen realistischer darzustellen, benutzen wir vier verschiedene Sprites für die Raumschiffe. Je nach Richtungswechsel wird der Sprite gleichzeitig mit der Geschwindigkeit geändert.
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2R.jpeg" alt="image" width="100">
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2L.jpeg" alt="image" width="100">
@@ -228,11 +227,11 @@ Um die Flugrichtungen relaistischer darzustellen, benutzen wir vier verschiedene
 
 #### Kollision und Punktverlust<a name=""></a>
 
-Bei Kontakt mit den Raumschiffen werden den Spielern 2 Punkte abgezogen. Auch hier prallen die Spieler beim Kontakt ab, um den massiven Punktverlust zu unterbinden. Allerdings stellen die Raumschiffe insofern ein gefährliches Hindernis dar, als dass sie die Spieler auf ihrer Flugroute vor sich her schieben können. Dies ist durchaus beabsichtigt.
+Bei Kontakt mit den Raumschiffen werden den Spielern 2 Punkte abgezogen. Auch hier prallen die Spieler beim Kontakt ab, um einen massiven Punktverlust zu unterbinden. Allerdings stellen die Raumschiffe insofern ein gefährliches Hindernis dar, als dass sie die Spieler auf ihrer Flugroute vor sich her schieben können. Dies ist durchaus beabsichtigt.
 
 ![Kollision mit Raumschiff](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Kollision%20Raumschiff.PNG)![Kollision mit Raumschiff 2](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Kollision%20Raumschiff%202.PNG)
 
-Wie bei der Sonne wird auch bei den Raumschiffkollisionen geprüft, ob die Spieler mit der Kollsion auf 0 Punkte fallen. Sollte dies der Fall sein, wird auch hier der Spieler wieder auf seinen Anfangspunkt zurückgesetzt.
+Wie bei der Sonne wird auch bei den Raumschiffkollisionen geprüft, ob die Spieler mit der Kollsion auf 0 Punkte oder weniger fallen. Sollte dies der Fall sein, wird auch hier der Spieler wieder auf seinen Anfangspunkt zurückgesetzt.
 
 Das Münzenproblem tritt bei den Raumschiffen nicht auf, da sie sich bewegen. Würden wir eine ähnliche Schleife wie bei der Sonne einführen, würden die Coins ständig ihre Position wechseln, ohne dass die Spieler sie einsammeln. Dies würde das Spiel stark beeinflussen.
 Stattdessen fliegen die Raumschiffe über die Coins herüber. Dadurch sind sie nur kurzzeitig blockiert, können aber weiterhin problemlos eingesammelt werden, nachdem das Raumschiff weitergeflogen ist. Dass die Raumschiffe über die Coins herüber und nicht unter durch fliegen, liegt an der Reihenfolge, in der wir die Sprites eingeführt haben. Im Code ganz oben haben wir die verschiedenen Sprites alle eingeführt und dabei die Coins zuerst genannt. Bei dieser Codesprache überdeckt immer der zuletzt genannte Sprite sämtliche vorher genannten. Somit mussten wir nur die Raumschiffe nach den Coins einführen, um diese Darstellung realisieren zu können. Dies ist unserem Code Inhaltsverzeichnis vom Anfang zu entnehmen.
