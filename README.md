@@ -164,7 +164,7 @@ Wie dem oben gezeigten Code zu entnehmen ist, sind die Collider aller [Coins](#6
 
 ![Collecting](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Collecting.PNG)
 
-Um Minuspunkte zu verhindern, wird beim Einsammeln eines [Badcoins](#6.1.4), während man 0 Punkte hat, der eigene Coincounter auf 0 gesetzt. 
+Um Minuspunkte zu verhindern, wird beim Einsammeln eines [Badcoins](#6.1.4), während man 0 Punkte hat, der eigene Coincounter auf 0 festgesetzt, ohne Punkte abzuziehen. 
 Die Anzahl gesammelter [Coins](#6) kann am oberen Rand des [Spielfelds](#6) dem Coincounter entnommen werden.
 
 ![Coincounter Spielfeld](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Coincounter.png)
