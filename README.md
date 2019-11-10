@@ -87,7 +87,7 @@ Das Spiel findet, wie der Name schon andeutet, im [All](#4) statt. Der schwarze 
 
 Um das Allthema aufrechtzuerhalten, werden die [Spielfiguren](#5) durch verschiedenfarbige Aliens dargestellt und die [Hindernisse](#7) durch eine [Sonne](#7.1) und [Raumschiffe](#7.2) verkörpert.
 
-## Spielfiguren und Steuerung<a name="">5</a>
+## Spielfiguren und Steuerung<a name="5"></a>
 
 ### Die Spielfiguren<a name="5.1"></a>
 Das Spiel wird von zwei Spielern gegeneinander gespielt. Spieler 1 steuert den grünen Alien, Spieler 2 den pinken Alien. Die Sprites für die [Spielfiguren](#5.1) waren bei der [Website](https://studio.code.org/home) bereits vorgefertigt und standen uns zur Verfügung.
