@@ -272,6 +272,14 @@ Allerdings kann auch der Gegner den [WinningCoin](#8.1) einsammeln. Gelingt es d
 
 #### Geschenkte Punkte<a name="8.2.2"></a>
 
+Mit dieser Spielmechanik hatten wir zwar eine Chance für den gegnerischen Spieler, den anderen Spieler zu behindern und sich selbst noch eine realistische Gewinnchance zu verschaffen, allerdings stießen wir an dieser Stelle ebenfalls auf ein massives Problem. Dieses bestand im Wesentlichen aus der Tatsache, dass die WinningCoins zwar für den Spieler unsichtbar waren, nichtsdestotrotz befanden sie sich auf dem Spielfeld. Dies führte mit dem ursprünglichen Code dazu, dass die Spieler während des Spiels unwissend den WinningCoin des Gegners einsammelten und ihm so 20 Punkte schenkten. Dies war natürlich nicht gewollt. Zudem wurde bei jeder ungewollten Berührung des gegnerischen WinningCoins der Coincounter auf 20 zurückgesetzt, wodurch es nahezu unmöglich war, die Marke von 30 Punkten zu erreichen.
+
+Dieses Problem konnte durch eine weitere Prämisse für die Zurücksetzung gelöst werden. Für diese vermeintlich einfache Lösung war jedoch eine Menge Gehirnschmalz und Analyse der Spielmechaniken notwendig. 
+
+Anstatt nur auf Berührung mit dem WinningCoin des Gegners zu prüfen, muss zusätzlich zur Brührung auch der WinningCoin sichtbar sein. Denn nur dann soll auch der Coincounter des Gegners auf 20 heruntergesetzt werden. 
+
+
+
 ### Einsammeln des eigenen WinningCoins<a name="8.3"></a>
 
 Schafft es ein [Spieler](#5.1), den eigenen [WinningCoin](#8.1) einzusammeln, so endet damit das Spiel und es erscheint der sogenannte WinningScreen.
