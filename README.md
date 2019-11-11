@@ -52,7 +52,7 @@
 
 [8.2.1 Einsammeln des gegnerischen WinningCoins](#8.2.1)
 
-[8.2.2 Geschenkte Coins](8.2.2)
+[8.2.2 Geschenkte Coins](#8.2.2)
 
 [8.3 Einsammeln des eigenen WinningCoins](#8.3)
 
