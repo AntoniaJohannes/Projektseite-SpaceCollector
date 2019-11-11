@@ -48,9 +48,14 @@
 
 [8.1 Die WinningCoins](#8.1)
 
-[8.2 Einsammeln des gegnerischen WinningCoins](#8.2)
+[8.2 Dem Gegner zuvorkommen](#8.2)
+
+[8.2.1 Einsammeln des gegnerischen WinningCoins](#8.2.1)
+
+[8.2.2 Geschenkte Coins](8.2.2)
 
 [8.3 Einsammeln des eigenen WinningCoins](#8.3)
+
 
 
 
@@ -257,11 +262,15 @@ Zu dem Zeitpunkt, an welchem ein [Spieler](#5.1) 30 Punkte sammelt, wird sein [W
 
 ![WC1 erscheint](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/WC1%20erscheint.PNG)<a name="0.2"></a>
 
-### Einsammeln des gegnerischen WinningCoins<a name="8.2"></a>
+### Dem Gegner zuvorkommen<a name="8.2"></a>
+
+#### Einsammeln des gegnerischen WinningCoins<a name="8.2.1"></a>
 
 Allerdings kann auch der Gegner den [WinningCoin](#8.1) einsammeln. Gelingt es dem anderen [Spieler](#5.1), den WinningCoin seinem Gegner wegzuschnappen, verhindert er so den [Sieg](#8.3) zu diesem Zeitpunkt. Denn dadurch wird der Coincounter des [Spielers](#5.1), der zuvor noch 30 Punkte hatte, auf 20 zurückgesetzt. Dadurch verschwindet auch der [WinningCoin](#8.1), wie in dem [obigen Code](0.2) vorgesehen. Damit man sich nicht merken kann, wo der [WinningCoin](#8.1) vorher war, wird dieser außerdem auf eine andere zufällige Position gesetzt. 
 
 ![Hiding WC1](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Hiding%20WC1.PNG)
+
+#### Geschenkte Punkte<a name="8.2.2"></a>
 
 ### Einsammeln des eigenen WinningCoins<a name="8.3"></a>
 
