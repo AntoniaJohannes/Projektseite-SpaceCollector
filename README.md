@@ -61,14 +61,14 @@
 
 ## Einleitung<a name="1"></a>
 
-"SpaceCollector" ist ein Spiel, welches wir während des Informatikunterrichts im 12. Jahrgang entwickelt und programmiert haben. Hierbei haben wir die Plattform [studio.code.org](https://studio.code.org/) genutzt, welche die Codesprache in einfachen Bausteinen darstellt und so das Programmieren ohne Vorkenntnisse erheblich erleichtert. Dies war für uns das ausschlaggebene Argument, diese Plattform zu wählen, da wir beide im Informatikunterricht das erste Mal mit Programmiersprachen in Kontakt waren. Eingearbeitet haben wir uns mit dem [Tutorial](https://studio.code.org/s/csd3-2019), welches wir auf der[Website](https://studio.code.org/) vorfanden.
+["SpaceCollector"](https://studio.code.org/projects/gamelab/7G1n-J1ZHxGsOA5-wcynzeOqAHwWLhN4u_mioXmjiS0) ist ein Spiel, welches wir während des Informatikunterrichts im 12. Jahrgang entwickelt und programmiert haben. Hierbei haben wir die Plattform [studio.code.org](https://studio.code.org/) genutzt, welche die Codesprache in einfachen Bausteinen darstellt und so das Programmieren ohne Vorkenntnisse erheblich erleichtert. Dies war für uns das ausschlaggebene Argument, diese Plattform zu wählen, da wir beide im Informatikunterricht das erste Mal mit Programmiersprachen in Kontakt waren. Eingearbeitet haben wir uns mit dem [Tutorial](https://studio.code.org/s/csd3-2019), welches wir auf der[Website](https://studio.code.org/) vorfanden.
 
 Nachdem wir verschiedene Spielmodelle in Erwägung gezogen hatten, entschieden wir uns für ein Spiel des Collectorgenres. Nach dem Progammieren eines [simplen Spiels](https://studio.code.org/projects/gamelab/EnadgHkFPFnDpVfr0FkQonvOLRhZsmTOVeFaQ5JREJw) ohne weitere Funktionen war es ein Leichtes, das Grundspiel zu entwickeln. Die anschließende Weiterentwicklung war der Hauptbestandteil der Informatikstunden.
 Im folgenden Text werden wir unser Spiel erklären und auf Herausforderungen und Schwierigkeiten während des Prozesses eingehen. Wenn Codezeilen für Spieler 1 und Spieler 2 aus Übersichtsgründen im Code zwar in getrennten Funktionen geschrieben wurden, sich aber außer in der Bezeichnung nicht unterscheiden, werden wir aus Platzgründen exemplarisch den Code für Spieler 1 verwenden. Es ist dann davon auszugehen, dass der Code von Spieler 2 diesem entspricht.
 
 ## Spielprinzip<a name="2"></a>
 
-Bei "SpaceCollector" konkurrieren zwei Aliens im [All](#4) um verschiedene [Coins](#6). Im Hintergrund funkeln Sterne, um das [All](#4) darzustellen. Die [Coins](#6) werden durch simples Berühren [eingesammelt](6.2). Ziel des Spiels ist es, [Coins](#6) im Wert von 30 Punkten einzusammeln, um so den [finalen Coin](#8.1) erscheinen zu lassen.
+Bei ["SpaceCollector"](https://studio.code.org/projects/gamelab/7G1n-J1ZHxGsOA5-wcynzeOqAHwWLhN4u_mioXmjiS0) konkurrieren zwei Aliens im [All](#4) um verschiedene [Coins](#6). Im Hintergrund funkeln Sterne, um das [All](#4) darzustellen. Die [Coins](#6) werden durch simples Berühren [eingesammelt](6.2). Ziel des Spiels ist es, [Coins](#6) im Wert von 30 Punkten einzusammeln, um so den [finalen Coin](#8.1) erscheinen zu lassen.
 Zu Beginn des Spiels erscheint Spieler 1 in der oberen linken Ecke, Spieler 2 in der unteren rechten Ecke. Die [Sonne](#7.1) ist als zentrales [Hindernis](#7) im Zentrum, darum herum fliegen zwei [Raumschiffe](#7.2). Diese beginnen in der unteren linken Ecke bzw. in der oberen rechten Ecke des Spielfelds, also in den Ecken, wo die Spieler sich zu Anfang nicht befinden.
 
 ![Ausgangssituation](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Spawn.PNG)
@@ -128,7 +128,7 @@ Der Code zum Erscheinen auf der jeweils anderen Seite des [Spielfelds](#4) bei V
 
 ### Die verschiedenen Coins<a name="6.1"></a>
 
-In "SpaceCollector" gibt es vier verschiedene Arten von [Coins](#6). Diese haben die Wertigkeiten +1, +2, +5 sowie -1. Die unterschiedlichen Wertigkeiten werden durch uterschiedliche Farben und Kennzeichnungen eindeutig gezeigt.
+In ["SpaceCollector"](https://studio.code.org/projects/gamelab/7G1n-J1ZHxGsOA5-wcynzeOqAHwWLhN4u_mioXmjiS0) gibt es vier verschiedene Arten von [Coins](#6). Diese haben die Wertigkeiten +1, +2, +5 sowie -1. Die unterschiedlichen Wertigkeiten werden durch uterschiedliche Farben und Kennzeichnungen eindeutig gezeigt.
 
 #### Der Bronzene Coin<a name="6.1.1"></a>
 
@@ -180,7 +180,7 @@ Die Anzahl gesammelter [Coins](#6) kann am oberen Rand des [Spielfelds](#6) dem 
 
 
 ## Hindernisse<a name="7"></a>
-Die [Hindernisse](#7) in "SpaceCollector" sollen das Spielerlebnis spannender gestalten, indem sie die Spieler beim [Sammeln der Coins](#6.2) behindern. In "SpaceCollector" gibt es drei [Hindernisse](#7): Eine [Sonne](#7.1) in der Mitte des [Spielfelds](#4) sowie zwei [Raumschiffe](#7.2).
+Die [Hindernisse](#7) in ["SpaceCollector"](https://studio.code.org/projects/gamelab/7G1n-J1ZHxGsOA5-wcynzeOqAHwWLhN4u_mioXmjiS0) sollen das Spielerlebnis spannender gestalten, indem sie die Spieler beim [Sammeln der Coins](#6.2) behindern. In ["SpaceCollector"](https://studio.code.org/projects/gamelab/7G1n-J1ZHxGsOA5-wcynzeOqAHwWLhN4u_mioXmjiS0) gibt es drei [Hindernisse](#7): Eine [Sonne](#7.1) in der Mitte des [Spielfelds](#4) sowie zwei [Raumschiffe](#7.2).
 
 ### Die Sonne<a name="7.1"></a>
 
@@ -206,7 +206,7 @@ Nachdem wir die [Sonne](#7.1) als [Hindernis](#7) eingeführt hatten, fiel uns s
 
 ### Die Raumschiffe<a name="7.2"></a>
 
-In "SpaceCollector" gibt es zusätzlich zu der [Sonne](#7.1) zwei weitere, sich bewegende [Hindernisse](#7) in Gestalt von zwei identisch aussehenden [Raumschiffen](#7.2).
+In ["SpaceCollector"](https://studio.code.org/projects/gamelab/7G1n-J1ZHxGsOA5-wcynzeOqAHwWLhN4u_mioXmjiS0) gibt es zusätzlich zu der [Sonne](#7.1) zwei weitere, sich bewegende [Hindernisse](#7) in Gestalt von zwei identisch aussehenden [Raumschiffen](#7.2).
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/H2.jpeg" alt="image" width="100">
 
@@ -298,7 +298,7 @@ Gleichzeitig erscheint die Medaille und der WinnerIcon des Gewinners. Dies ist e
 
 ![WinningIcons](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Winning%20Icon%20Code.PNG)
 
-Dies ist das Ende des Spiels. Nun kann es von neuem gestartet werden.
+Dies ist das Ende des Spiels. Nun kann es von Neuem gestartet werden.
 
 
 ### Schlusswort<a name="9"></a>
