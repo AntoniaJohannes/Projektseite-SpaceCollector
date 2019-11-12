@@ -106,6 +106,8 @@ Spieler 1 steuert die [Spielfigur](#5.1) mit den Tasten WASD, Spieler 2 mit den 
 
 [Steuerung](#5.2) auf der Tastatur. Grün ist Spieler 1, pink Spieler 2
 
+
+
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player1L.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player1R.jpeg" alt="image" width="100">
 
 Sprites für links bzw. rechts bei Spieler 1.
