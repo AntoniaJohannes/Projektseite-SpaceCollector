@@ -106,7 +106,7 @@ Spieler 1 steuert die [Spielfigur](#5.1) mit den Tasten WASD, Spieler 2 mit den 
 
 Sprites für links bzw. rechts bei Spieler 1.
 
-<img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Steuerung.jpeg" alt="image" width="300">
+![Steuerung Tastatur](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Steuerung.jpg)
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player2L.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player2R.jpeg" alt="image" width="100">
 
