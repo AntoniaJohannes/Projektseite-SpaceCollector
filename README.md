@@ -102,11 +102,14 @@ Das Spiel wird von zwei Spielern gegeneinander gespielt. Spieler 1 steuert den g
 ### Steuerung<a name="5.2"></a>
 Spieler 1 steuert die [Spielfigur](#5.1) mit den Tasten WASD, Spieler 2 mit den Pfeiltasten, wobei sich die Animation für links und rechts so verändert, als wenn die [Spielfigur](#5.1) nach links bzw. rechts laufen würde.
 
+![Steuerung Tastatur](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Steuerung.jpg)
+
+[Steuerung](#5.2) auf der Tastatur. Grün ist Spieler 1, pink Spieler 2
+
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player1L.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player1R.jpeg" alt="image" width="100">
 
 Sprites für links bzw. rechts bei Spieler 1.
 
-![Steuerung Tastatur](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Steuerung.jpg)
 
 <img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player2L.jpeg" alt="image" width="100"><img src="https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Player2R.jpeg" alt="image" width="100">
 
