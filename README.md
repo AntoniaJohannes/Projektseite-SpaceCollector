@@ -303,3 +303,6 @@ Dies ist das Ende des Spiels. Nun kann es von neuem gestartet werden.
 
 ### Schlusswort<a name="9"></a>
 
+Zu Beginn des Informatikunterrichts hatten wir Zweifel daran, dass wir ein vernünftiges Projekt auf die Beine stellen können. Doch mit der Wahl der richtigen Plattform und etwas Zeitinvestition für das Tutorial (an der man leider nicht vorbeikommt) war es uns möglich, ohne jegliche Vorkenntnisse ein in unseren Augen gutes Spiel zu programmieren. Zudem hatten wir aufgrund der offenen Aufgabenstellung zwar schnell beschlossen, ein Spiel zu programmmieren, doch der Weg zur Entscheidung für ein Spielgenre hat uns recht viel Zeit gekostet.
+Dazu kommt, dass man ohne das Tutorial kaum etwas machen kann, sodass uns auch hier am Anfang Zeit abhanden gekommen ist. 
+Rückblickend kann man sagen, dass wir trotz einigem Zeitverlust es geschafft haben, ohne Vorkenntnisse ein gutes Spiel uns auszudenken und als Programm umzusetzen.
