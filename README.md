@@ -56,7 +56,7 @@
 
 [8.3 Einsammeln des eigenen WinningCoins](#8.3)
 
-
+[9. Schlusswort](#9)
 
 
 ## Einleitung<a name="1"></a>
@@ -299,3 +299,7 @@ Gleichzeitig erscheint die Medaille und der WinnerIcon des Gewinners. Dies ist e
 ![WinningIcons](https://github.com/AntoniaJohannes/Projektseite-SpaceCollector/blob/master/Winning%20Icon%20Code.PNG)
 
 Dies ist das Ende des Spiels. Nun kann es von neuem gestartet werden.
+
+
+### Schlusswort<a name="9"></a>
+
